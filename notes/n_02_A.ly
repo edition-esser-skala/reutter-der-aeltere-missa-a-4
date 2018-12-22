@@ -45,6 +45,21 @@ KyrieAltoNotes = {
 		\time 3/1 r2 g2. f4 es g fis2 g %25
 		\time 2/1 fis g1 fis2
 		g\breve\fermata \bar "||" %27 finis
+		r2 d es1
+		r2 d c b4 c
+		d2 g f1 %30
+		R\breve
+		r2 d f2. f4
+		g2. g4 f2 d
+		g4( f es) f d1
+		r2 g, b a %35
+		g4( a b) c d1
+		d4( e f d) f2( es
+		d2.) e4 f1
+		r r2 d
+		f1 r2 d %40
+		es es c4 d d2~
+		\time 3/1 d c d\breve\fermata \bar "||" %42 finis
 	}
 }
 
@@ -73,6 +88,21 @@ KyrieAltoLyrics = \lyricmode {
 	Ky -- ri -- e e -- le -- _ %25
 	_ _ i --
 	son. %27 finis
+	Chri -- ste
+	e -- le -- _ _
+	_ i -- son, %30
+	
+	Chri -- ste e --
+	le -- i -- son, e --
+	le -- i -- son,
+	Chri -- ste e -- %35
+	le -- i -- son,
+	e -- le --
+	i -- son,
+	Chri --
+	ste, Chri -- %40
+	ste e -- le -- _ _
+	i -- son.
 }
 
 % AltoNotes = {
