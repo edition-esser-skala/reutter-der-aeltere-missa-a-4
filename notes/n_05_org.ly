@@ -56,16 +56,16 @@ KyrieBassFigures = \figuremode {
 	q q q1
 	r1 <6>
 	q q2 <_!> %5
-	r1 <6>2 <\t>
+	<[6]>1 <6>2 <\t>
 	<5>1 <\t>
 	<_->\breve
-	<2>4 <6> r2 <2>1
+	<2>4 <6> <[6-]>2 <2> <[6]>
 	r\breve %10
 	<6>1. q2
 	<6\\>1 <7>2 <6\\>
 	r\breve
 	r2 <_->1.
-	<6>2 <6-> <4 2>1 %15
+	<6>2 <6-> <4 2> <[6]> %15
 	r\breve
 	<6 _->
 	<5>2 <6> r1
@@ -73,9 +73,9 @@ KyrieBassFigures = \figuremode {
 	<_-> %20
 	<5 _+>2 <6 4>
 	<4> <_+> r <_->
-	<\t>1 <6\\>
+	<\t>2 <[6]> <6\\>1
 	<7>2 <[6\\]> r1
-	r\breve <_+>1 %25
+	r2 <[7]>4 <[6]> r2 <[_-]> <[7] _+>1 %25
 	<5 _+>2 \bassFigureExtendersOn <5 4> <5 4\!> <5 _+> \bassFigureExtendersOff
 	r\breve %27 finis
 }
