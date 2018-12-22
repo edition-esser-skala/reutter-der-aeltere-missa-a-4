@@ -101,18 +101,18 @@ KyrieBassFigures = \figuremode {
 	r\breve %27 finis
 	r
 	r
-	r %30
+	r1. <[6]>2 %30
 	r1 <6>
 	r\breve
-	<6>
-	r
-	r %35
-	r
+	<6>2. <[_-]>4 r1
+	r2 <[_-]>1.
+	r\breve %35
+	r1 <[6]>
 	r1. <6->2
 	r\breve
 	<6->2. <\t>4 r1
 	r <6>4 <\t>2 <6>4 %40
-	r1 <6\\>
+	r2 <[_-]> <6\\>1
 	<7>2 <6> <[_+]>\breve %42 finis
 }
 

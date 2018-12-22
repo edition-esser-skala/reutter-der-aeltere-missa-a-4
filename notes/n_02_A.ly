@@ -102,7 +102,7 @@ KyrieAltoLyrics = \lyricmode {
 	Chri --
 	ste, Chri -- %40
 	ste e -- le -- _ _
-	i -- son.
+	i -- son. %42 finis
 }
 
 % AltoNotes = {
