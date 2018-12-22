@@ -42,6 +42,21 @@ KyrieSopranoNotes = {
 		\time 3/1 d2. c4 c2 c1( b2) %25
 		\time 2/1 a\breve
 		g\fermata \bar "||" %27 finis
+		r1 r2 g
+		b1 r4 a g a
+		b a b c d b c d %30
+		c2. c4 g( f g) a
+		b1 r
+		R\breve
+		r1 r2 d,
+		es1 d2( f) %35
+		g2. a4 b2 d~
+		d d c4( a b c)
+		d2. d4 a1
+		r b
+		a b2.( a4) %40
+		g2 g c( b4 d)
+		\time 3/1 g,2. g4 fis\breve\fermata \bar "||" %42 finis
 	}
 }
 
@@ -67,6 +82,21 @@ KyrieSopranoLyrics = \lyricmode {
 	Ky -- ri -- e e -- %25
 	lei --
 	son. %27 finis
+	Chri --
+	ste e -- _ _
+	_ _ _ _ _ _ le -- i -- %30
+	son, e -- le -- i --
+	son,
+	
+	Chri --
+	ste e -- %35
+	le -- i -- son, Chri --
+	ste e --
+	le -- i -- son,
+	Chri --
+	ste e -- %40
+	lei -- son, e --
+	le -- i -- son. %42 finis
 }
 
 % SopranoNotes = {
