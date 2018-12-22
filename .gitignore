@@ -1,0 +1,14 @@
+Front page/*.pdf
+Front page/*.png
+Final scores/*
+Critical report/*.pdf
+Manuscript/*
+*.kilepr
+*.zip
+*.pdf
+*.mid
+*.midi
+*.eps
+.~lock*
+*.kate-swp
+*.ps
