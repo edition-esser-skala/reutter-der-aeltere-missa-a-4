@@ -7,7 +7,7 @@
 project = Reutter_Missa_in_g_minor
 zipname = Reutter_Missa_in_g_minor_Engraving_Files
 notes = A B org S T
-parts = b coro org
+parts = b org
 movements = missa
 
 

@@ -37,7 +37,6 @@ The file *master.ly* allows you to work with an editor like Kile: Change the inc
     * s_missa.ly
 * Parts definitions in folder *parts*:
     * p_b.ly
-    * p_coro.ly
     * p_org.ly
 
 
