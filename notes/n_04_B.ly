@@ -28,6 +28,20 @@ KyrieBassoNotes = {
 		\time 3/1 g4 f es2. d4 c2 d g %25
 		\time 2/1 d\breve
 		g,\fermata \bar "||" %27 finis
+		R\breve*2
+		r1 r2 d' %30
+		f2. f4 es( d es) f
+		g1 r2 d
+		es4 d( es c) d2 g
+		es4 d c f b,1
+		R\breve %35
+		r1 r2 g
+		b1 a2 g4 a
+		b a b c d e f d
+		g2. a4 b2 b,
+		f'2. es4 d g2 f4 %40
+		es d c b a2 g
+		\time 3/1 es'2. es4 d\breve\fermata \bar "||" %42 finis
 	}
 }
 
@@ -50,6 +64,20 @@ KyrieBassoLyrics = \lyricmode {
 	ri -- e e -- _ _ _ %25
 	lei --
 	son. %27 finis
+	
+	Chri -- %30
+	ste e -- le -- i --
+	son, Chri --
+	ste e -- le -- _
+	_ _ _ i -- son,
+	
+	Chri --
+	ste e -- _ _
+	_ _ _ _ _ _ _ _
+	le -- i -- son, Chri --
+	ste e -- _ _ _
+	_ _ _ _ le -- _
+	_ i -- son.
 }
 
 % BassoNotes = {
