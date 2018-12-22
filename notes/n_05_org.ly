@@ -63,11 +63,11 @@ KyrieBassFigures = \figuremode {
 	r\breve %10
 	<6>1. q2
 	<6\\>1 <7>2 <6\\>
-	r\breve
-	r2 <_->1.
+	r1 <[6]>
+	q2 <_->1.
 	<6>2 <6-> <4 2> <[6]> %15
 	r\breve
-	<6 _->
+	<6 _->1 <[6]>
 	<5>2 <6> r1
 	r\breve
 	<_-> %20

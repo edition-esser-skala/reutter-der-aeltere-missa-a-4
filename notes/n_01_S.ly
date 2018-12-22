@@ -52,11 +52,11 @@ KyrieSopranoLyrics = \lyricmode {
 	son, Ky -- ri -- e __ %10
 	_ _ _ e --
 	le -- i --
-	son.
+	son,
 	
 	Ky -- ri -- %15
 	e __ e -- le -- i --
-	son.
+	son,
 	
 	Ky -- ri --
 	e e -- _ %20
