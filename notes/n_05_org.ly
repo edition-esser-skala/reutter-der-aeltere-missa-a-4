@@ -47,6 +47,27 @@ KyrieOrgano = {
 		\time 3/1 g4 f es2. d4 c2 d g %25
 		\time 2/1 d\breve
 		g,\fermata \bar "||" %27 finis
+		\clef treble << {
+			r1 r2 g''
+			b1 r4 a g a
+			b a
+		} \\ {
+			r2 d, es1
+			d c2 b4 c
+			d2
+		} >> \clef "treble_8" g, b \clef bass d, %30
+		f1 es4 d es f
+		g1 d
+		es4 d es c d2 g
+		es4 d c f b,1
+		r r2 d %35
+		es1 d2 g,
+		b1 a2 g4 a
+		b a b c d e f d
+		g2. a4 b2 b,
+		f'2. es4 d g2 f4 %40
+		es d c b a2 g
+		\time 3/1 es'1 d\breve\fermata \bar "||" %42 finis
 	}
 }
 
@@ -78,6 +99,21 @@ KyrieBassFigures = \figuremode {
 	r2 <[7]>4 <[6]> r2 <[_-]> <[7] _+>1 %25
 	<5 _+>2 \bassFigureExtendersOn <5 4> <5 4\!> <5 _+> \bassFigureExtendersOff
 	r\breve %27 finis
+	r
+	r
+	r %30
+	r1 <6>
+	r\breve
+	<6>
+	r
+	r %35
+	r
+	r1. <6->2
+	r\breve
+	<6->2. <\t>4 r1
+	r <6>4 <\t>2 <6>4 %40
+	r1 <6\\>
+	<7>2 <6> <[_+]>\breve %42 finis
 }
 
 % Organo = {
