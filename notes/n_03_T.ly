@@ -60,6 +60,25 @@ KyrieTenoreNotes = {
 		c1 d2 b~ %40
 		b c fis, g
 		\time 3/1 g2. g4 a\breve\fermata \bar "||" %42 finis
+		\time 2/1 R\breve*3 %45
+		r2 g1 g2
+		d g1 f2
+		e d e2. e4
+		d1 r2 d'
+		es1 d %50
+		c2 g1 fis2
+		g d' d2. d4
+		d1 r
+		R\breve
+		r2 a1 a2 %55
+		d, g1 f2
+		e d e2. e4
+		d2 f4 g a2 d
+		c2. c4 d2 d
+		a b c d %60
+		fis, g4 a b2 a4 g
+		a2 b a2. a4
+		h\breve\fermata \bar "|." %63 FINIS
 	}
 }
 
@@ -104,6 +123,25 @@ KyrieTenoreLyrics = \lyricmode {
 	_ _ _ %40
 	_ _ _
 	le -- i -- son. %42 finis
+	
+	Ky -- ri -- %46
+	e e -- _
+	_ _ le -- i --
+	son, Ky --
+	ri -- e %50
+	e -- _ _
+	_ _ le -- i --
+	son,
+	
+	Ky -- ri -- %55
+	e e -- _
+	_ _ le -- i --
+	son, Ky -- ri -- e e --
+	le -- i -- son, Ky --
+	ri -- e e -- _ %60
+	_ _ _ _ _ _
+	_ _ le -- i --
+	son. %63 FINIS
 }
 
 % TenoreNotes = {
