@@ -113,26 +113,7 @@ partTitle = #(define-scheme-function
 %
 %
 
-solo = \markup { \remark Solo }
-soloE = \markup { \remarkE Solo }
-tutti = \markup { \remark Tutti }
-tuttiE = \markup { \remarkE Tutti }
-tasto = \markup { \remark "tasto solo" }
-tastoE = \markup { \remarkE "tasto solo" }
-org = \markup { \remark Org. }
-orgE = \markup { \remarkE Org. }
-vlc = \markup { \remark "Vlc." }
-vlcE = \markup { \remarkE "Vlc." }
-bassi = \markup { \remark Bassi }
-bassiE = \markup { \remarkE Bassi }
-tenuto = \markup { \remark ten. }
-tenutoE = \markup { \remarkE ten. }
-adlibitum = \markup { \remark "ad libitum" }
-adlibitumE = \markup { \remarkE "ad libitum" }
-rip = \markup { \remark "rip." }
-ripE = \markup { \remarkE "rip." }
-unisono = \markup { \remark "unisono" }
-unisonoE = \markup { \remarkE "unisono" }
+
 
 t = \markup { \combine \fontsize #-2 \transparent \number 5 \raise #.6 \draw-line #'(1 . 0) }
 l = \markup { \fontsize #-2 \transparent \number 5 }
@@ -141,61 +122,6 @@ critnote = \markup { \musicglyph #'"pedal.*" }
 trillE = \tweak self-alignment-X #CENTER ^\markup { \hspace #1.5 [ \musicglyph #'"scripts.trill" ] }
 extraNat = \once \override Accidental.restore-first = ##t
 kneeBeam = \once \override Beam.auto-knee-gap = #0
-
-
-ff = #(make-dynamic-script (markup #:line (#:normal-text #:large #:bold "ff")))
-"f" = #(make-dynamic-script (markup #:line (#:normal-text #:large #:bold "f")))
-mf = #(make-dynamic-script (markup #:line (#:normal-text #:large #:bold "mf")))
-mp = #(make-dynamic-script (markup #:line (#:normal-text #:large #:bold "mp")))
-p = #(make-dynamic-script (markup #:line (#:normal-text #:large #:bold "p")))
-pp = #(make-dynamic-script (markup #:line (#:normal-text #:large #:bold "pp")))
-ffE = #(make-dynamic-script (markup #:line (#:normal-text #:italic #:large #:bold "ff")))
-fE = #(make-dynamic-script (markup #:line (#:normal-text #:italic #:large #:bold "f")))
-mfE = #(make-dynamic-script (markup #:line (#:normal-text #:italic #:large #:bold "mf")))
-mpE = #(make-dynamic-script (markup #:line (#:normal-text #:italic #:large #:bold "mp")))
-pE = #(make-dynamic-script (markup #:line (#:normal-text #:italic #:large #:bold "p")))
-ppE = #(make-dynamic-script (markup #:line (#:normal-text #:italic #:large #:bold "pp")))
-fp = #(make-dynamic-script (markup #:line (#:normal-text #:large #:bold "fp")))
-fpE = #(make-dynamic-script (markup #:line (#:normal-text #:italic #:large #:bold "fp")))
-piuF = #(make-dynamic-script (markup #:line (#:normal-text #:small "più" #:normal-text #:large #:bold "f")))
-piuFE = #(make-dynamic-script (markup #:line (#:normal-text #:small #:italic "più" #:normal-text #:large #:bold #:italic "f")))
-rfz = #(make-dynamic-script (markup #:line (#:normal-text #:large #:bold "rfz")))
-rfzE = #(make-dynamic-script (markup #:line (#:normal-text #:italic #:large #:bold "rfz")))
-pocoF = #(make-dynamic-script (markup #:line (#:normal-text #:small "poco" #:normal-text #:large #:bold "f")))
-pocoFE = #(make-dynamic-script (markup #:line (#:normal-text #:small #:italic "poco" #:normal-text #:large #:bold #:italic "f")))
-
-smallerGroupDistance = {
-	\override StaffGrouper.staffgroup-staff-spacing =
-		#'((basic-distance . 12)
-			 (minimum-distance . 12)
-			 (padding . -100)
-			 (stretchability . 0))
-	\override StaffGrouper.staff-staff-spacing =
-		#'((basic-distance . 10)
-       (minimum-distance . 10)
-       (padding . -100)
-			 (stretchability . 0)) }
-
-
-mvTr = \once \override TextScript.X-offset = #2
-mvTrh = \once \override TextScript.X-offset = #2.5
-mvTrr = \once \override TextScript.X-offset = #3
-hideTn = \once \override TupletNumber.stencil = ##f
-mvDll = \once \override DynamicText.X-offset = #-3
-pao = \partcombineApartOnce
-pa = \partcombineApart
-pd = \partcombineAutomatic
-
-tempoMarkup =
-	#(define-music-function
-		(parser location arg)
-		(markup?)
-	#{
-		\tempo \markup \medium { \larger \larger #arg }
-	#})
-%
-
-tempoKyrie = \tempoMarkup "[Tempo deest]"
 
 
 

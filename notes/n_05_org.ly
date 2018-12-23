@@ -18,7 +18,7 @@ OrganoIncipit = \markup {
 KyrieOrgano = {
 	\relative c {
 		\clef "treble_8"
-		\key g \dorian \time 2/1 \tempoKyrie
+		\key g \dorian \time 2/1
 			\set Staff.timeSignatureFraction = 2/2
 		r2 d'1 d2
 		g, c1 b2
@@ -68,6 +68,33 @@ KyrieOrgano = {
 		f'2. es4 d g2 f4 %40
 		es d c b a2 g
 		\time 3/1 es'1 d\breve\fermata \bar "||" %42 finis
+		\clef treble \time 2/1 << {
+			r2 d''1 d2
+			g, c1 b2
+			a g a2. a4 %45
+		} \\ {
+			r1 r2 d,
+			es1 d
+			c2 b c d %45
+		} >>
+		\clef bass g,1. g,2
+		b1 g2. g4
+		a1. a2
+		b2 d1 d2
+		g, c1 b2 %50
+		a g a1
+		g2 g4 a b1~
+		b4 a g a b c d2
+		g,4 a b2 g a
+		d f, g a %55
+		d g1 f2
+		e d e1
+		d2 f4 g a2 d,
+		es1 d
+		c2 b a g %60
+		d' es d1
+		d\breve
+		g,\fermata \bar "|." %63 FINIS
 	}
 }
 
@@ -114,6 +141,27 @@ KyrieBassFigures = \figuremode {
 	r <6>4 <\t>2 <6>4 %40
 	r2 <[_-]> <6\\>1
 	<7>2 <6> <[_+]>\breve %42 finis
+	r\breve
+	r
+	r %45
+	r
+	<6>
+	<_+>2 <4>1 <_+>2
+	<5>\breve
+	<6->2 <_-> <2> <6 3> %50
+	<6\\>1 <7>2 <6\\>
+	r\breve
+	r1 <6>
+	<6!> <6>2 <_+>
+	r <6> r <_+> %55
+	r <3> <4\+ 2> <6>
+	<7>4 <6\\> r2 <7> <6\\>
+	r\breve
+	<6>1 <8>2 <7>
+	<6 _-> <6> <6\\>1 %60
+	<_+>2 r4 <6 4> <5 _+>2 <4 2>
+	<5 _+> <6 4> <5 4> <\t _+>
+	r\breve %63 FINIS
 }
 
 % Organo = {

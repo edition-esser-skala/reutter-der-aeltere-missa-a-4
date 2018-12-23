@@ -18,7 +18,7 @@ AltoIncipit = \markup {
 KyrieAltoNotes = {
 	\relative c' {
 		\clef treble
-		\key g \dorian \time 2/1 \autoBeamOff \tempoKyrie
+		\key g \dorian \time 2/1 \autoBeamOff
 			\set Staff.timeSignatureFraction = 2/2
 		R\breve*3
 		r2 g'1 g2

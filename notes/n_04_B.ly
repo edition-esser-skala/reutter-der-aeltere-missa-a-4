@@ -7,7 +7,7 @@
 KyrieBassoNotes = {
 	\relative c {
 		\clef bass
-		\key g \dorian \time 2/1 \autoBeamOff \tempoKyrie
+		\key g \dorian \time 2/1 \autoBeamOff
 			\set Staff.timeSignatureFraction = 2/2
 		R\breve*9
 		r2 g'1 g2 %10

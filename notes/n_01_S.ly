@@ -18,7 +18,7 @@ SopranoIncipit = \markup {
 KyrieSopranoNotes = {
 	\relative c' {
 		\clef treble
-		\key g \dorian \time 2/1 \autoBeamOff \tempoKyrie
+		\key g \dorian \time 2/1 \autoBeamOff
 			\set Staff.timeSignatureFraction = 2/2
 		R\breve*6 %6
 		r2 d'1 d2
@@ -57,6 +57,27 @@ KyrieSopranoNotes = {
 		a b2.( a4) %40
 		g2 g c( b4 d)
 		\time 3/1 g,2. g4 fis\breve\fermata \bar "||" %42 finis
+		\time 2/1 r2 d'1 d2
+		g, c1 b2
+		a g a2. a4 %45
+		b2 g4 a b1~
+		b4 a g a b c d2
+		cis( d1) cis2
+		d1 r
+		r r2 g, %50
+		a b c4 b c a
+		b2 b4 a g a b c
+		d c b c d2 a
+		b4 c d1 cis2
+		d r r a %55
+		b1 a
+		g2 f g4( a h) cis
+		d2 d1 d2
+		g, c1 b2
+		a g a b %60
+		a g1 fis4 e
+		fis2 g1 fis2
+		g\breve\fermata \bar "|." %63 FINIS
 	}
 }
 
@@ -97,6 +118,27 @@ KyrieSopranoLyrics = \lyricmode {
 	ste e -- %40
 	lei -- son, e --
 	le -- i -- son. %42 finis
+	Ky -- ri --
+	e [e -- _
+	_ _ le -- i -- %45
+	son, Ky -- ri -- e __
+	e -- _ _ _ _ _
+	le -- i --
+	son,]
+	[e -- %50
+	le -- _ _ _ _ i --
+	son, e -- _ _ _ _ _
+	_ _ _ _ _ _
+	_ _ le -- i --
+	son, e -- %55
+	le -- i --
+	son, e -- le -- i --
+	son, Ky -- ri] --
+	e e -- _
+	_ _ _ _
+	_ _ le -- _
+	_ _ [i] --
+	son.
 }
 
 % SopranoNotes = {

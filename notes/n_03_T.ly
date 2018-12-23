@@ -18,7 +18,7 @@ TenoreIncipit = \markup {
 KyrieTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
-		\key g \dorian \time 2/1 \autoBeamOff \tempoKyrie
+		\key g \dorian \time 2/1 \autoBeamOff
 			\set Staff.timeSignatureFraction = 2/2
 		r2 d1 d2
 		g, c1 b2
