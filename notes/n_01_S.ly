@@ -141,6 +141,19 @@ KyrieSopranoLyrics = \lyricmode {
 	son. %63 FINIS
 }
 
+GloriaSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \dorian \time 2/1 \autoBeamOff
+			\set Staff.timeSignatureFraction = 2/2
+		
+	}
+}
+
+GloriaSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

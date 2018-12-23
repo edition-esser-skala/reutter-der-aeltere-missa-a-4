@@ -144,6 +144,19 @@ KyrieTenoreLyrics = \lyricmode {
 	son. %63 FINIS
 }
 
+GloriaTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \dorian \time 2/1 \autoBeamOff
+			\set Staff.timeSignatureFraction = 2/2
+		
+	}
+}
+
+GloriaTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

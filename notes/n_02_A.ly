@@ -145,6 +145,19 @@ KyrieAltoLyrics = \lyricmode {
 	son. %63 FINIS
 }
 
+GloriaAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \dorian \time 2/1 \autoBeamOff
+			\set Staff.timeSignatureFraction = 2/2
+		
+	}
+}
+
+GloriaAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

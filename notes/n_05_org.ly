@@ -164,6 +164,19 @@ KyrieBassFigures = \figuremode {
 	<[_!]>\breve %63 FINIS
 }
 
+GloriaOrgano = {
+	\relative c {
+		\clef bass
+		\key g \dorian \time 2/1
+			\set Staff.timeSignatureFraction = 2/2
+		r2 g'1 f2
+	}
+}
+
+GloriaBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

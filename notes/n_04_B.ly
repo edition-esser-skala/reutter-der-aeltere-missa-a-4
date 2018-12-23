@@ -129,6 +129,19 @@ KyrieBassoLyrics = \lyricmode {
 	son. %63 FINIS
 }
 
+GloriaBassoNotes = {
+	\relative c {
+		\clef bass
+		\key g \dorian \time 2/1 \autoBeamOff
+			\set Staff.timeSignatureFraction = 2/2
+		
+	}
+}
+
+GloriaBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass
