@@ -54,8 +54,8 @@ KyrieAltoNotes = {
 		g4( f es) f d1
 		r2 g, b a %35
 		g4( a b) c d1
-		d4( e f d) f2( es
-		d2.) e4 f1
+		d4 e f d) f2 es
+		d2. e4 f1
 		r r2 d
 		f1 r2 d %40
 		es es c4 d d2~
@@ -65,7 +65,7 @@ KyrieAltoNotes = {
 		c2( b) c d %45
 		g, b4 c d1~
 		d4 c b c d1
-		a'4( g f2 e) a
+		a'4 g f2 e a
 		f1 r
 		R\breve*2 %51
 		r2 g1 g2
@@ -117,8 +117,8 @@ KyrieAltoLyrics = \lyricmode {
 	le -- i -- son,
 	Chri -- ste e -- %35
 	le -- i -- son,
-	e -- le --
-	i -- son,
+	e -- _ _ _ le -- _
+	_ i -- son,
 	Chri --
 	ste, Chri -- %40
 	ste e -- le -- _ _
@@ -128,7 +128,7 @@ KyrieAltoLyrics = \lyricmode {
 	e -- le -- i -- %45
 	son, Ky -- ri -- e __
 	e -- _ _ _
-	le -- i --
+	le -- _ _ _ i --
 	son,
 	
 	Ky -- ri -- %52
