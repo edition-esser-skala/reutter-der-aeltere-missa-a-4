@@ -68,9 +68,9 @@ KyrieSopranoNotes = {
 		a b c4 b c a
 		b2 b4 a g a b c
 		d c b c d2 a
-		b4 c d1 cis2
+		h?4 c d1 cis2
 		d r r a %55
-		b1 a
+		b!1 a
 		g2 f g4( a h) cis
 		d2 d1 d2
 		g, c1 b2
@@ -135,10 +135,10 @@ KyrieSopranoLyrics = \lyricmode {
 	son, e -- le -- i --
 	son, Ky -- ri] --
 	e e -- _
-	_ _ _ _
+	_ _ _ _ %60
 	_ _ le -- _
 	_ _ [i] --
-	son.
+	son. %63 FINIS
 }
 
 % SopranoNotes = {
