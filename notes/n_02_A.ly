@@ -9,10 +9,10 @@ AltoIncipit = \markup {
 		\new Staff \with {
 			\remove Time_signature_engraver
 		} {
-			\clef alto s4 \bar empty
+			\clef "mensural-c3" s4 \bar empty
 		}
 		\layout { }
-	} \hspace #-1.8
+	} \hspace #-.8
 }
 
 KyrieAltoNotes = {
@@ -31,7 +31,7 @@ KyrieAltoNotes = {
 		d4 c b c d1
 		g2 f g2. g4
 		f1 f4( g a2)
-		g4( f es f g2.) f8[( es])
+		g4 f es f g2. f8[( es])
 		d2 es c d %15
 		d d4 d g1
 		r4 es f g f2 r
@@ -54,7 +54,7 @@ KyrieAltoNotes = {
 		g4( f es) f d1
 		r2 g, b a %35
 		g4( a b) c d1
-		d4 e f d) f2 es
+		d4 e f d f2 es
 		d2. e4 f1
 		r r2 d
 		f1 r2 d %40
@@ -94,7 +94,7 @@ KyrieAltoLyrics = \lyricmode {
 	e -- _ _ _ _
 	_ _ le -- i --
 	son, e --
-	le -- i --
+	le -- _ _ _ _ i --
 	son, Ky -- ri -- e %15
 	e -- le -- i -- son,
 	e -- le -- i -- son,

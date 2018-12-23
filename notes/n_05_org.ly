@@ -5,14 +5,14 @@
 \version "2.18.0"
 
 OrganoIncipit = \markup {
-	"Organo" \hspace #-16.5 \score {
+	"Organo" \hspace #-17 \score {
 		\new Staff \with {
 			\remove Time_signature_engraver
 		} {
-			\clef tenor s4 \bar empty
+			\clef "mensural-c4" s4 \bar empty
 		}
 		\layout { }
-	} \hspace #-1.8
+	} \hspace #-.8
 }
 
 KyrieOrgano = {
@@ -45,10 +45,10 @@ KyrieOrgano = {
 		c b a g
 		a1 g2 g'~
 		\time 3/1 g4 f es2. d4 c2 d g %25
-		\time 2/1 d\breve
+		\time 2/1 d\breve \noBreak
 		g,\fermata \bar "||" %27 finis
 		\clef treble << {
-			r1 r2 g''
+			r1 r2 g'' \noBreak
 			b1 r4 a g a
 			b a
 		} \\ {
@@ -66,10 +66,10 @@ KyrieOrgano = {
 		b a b c d e f d
 		g2. a4 b2 b,
 		f'2. es4 d g2 f4 %40
-		es d c b a2 g
+		es d c b a2 g \noBreak
 		\time 3/1 es'1 d\breve\fermata \bar "||" %42 finis
 		\clef treble \time 2/1 << {
-			r2 d''1 d2
+			r2 d''1 d2 \noBreak
 			g, c1 b2
 			a g a2. a4 %45
 		} \\ {
@@ -152,7 +152,7 @@ KyrieBassFigures = \figuremode {
 	<6\\>1 <7>2 <6\\>
 	r1 <[6]>
 	<6>\breve
-	<6 _!>1 <6>2 <_+>
+	<6 _!>4 <[_+]> r2 <6> <_+>
 	r <6> r <[4]>4 <_+> %55
 	<[6]>2 <3> <4\+ 2> <6>
 	<7>4 <6\\> r2 <7>2. <6\\>4

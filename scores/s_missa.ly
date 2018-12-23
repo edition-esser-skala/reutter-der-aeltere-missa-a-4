@@ -79,7 +79,9 @@
 					\new Lyrics \lyricsto Tenore \KyrieTenoreLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = "Basso"
+						\set Staff.instrumentName = \BassoIncipit
+						\override Staff.InstrumentName.self-alignment-Y = ##f
+						\override Staff.InstrumentName.self-alignment-X = #RIGHT
 						\new Voice = "Basso" { \dynamicUp \KyrieBassoNotes }
 					}
 					\new Lyrics \lyricsto Basso \KyrieBassoLyrics

@@ -9,10 +9,10 @@ SopranoIncipit = \markup {
 		\new Staff \with {
 			\remove Time_signature_engraver
 		} {
-			\clef soprano s4 \bar empty
+			\clef "mensural-c1" s4 \bar empty
 		}
 		\layout { }
-	} \hspace #-1.8
+	} \hspace #-.8
 }
 
 KyrieSopranoNotes = {
@@ -68,7 +68,7 @@ KyrieSopranoNotes = {
 		a b c4 b c a
 		b2 b4 a g a b c
 		d c b c d2 a
-		h?4 c d1 cis2
+		h?4 cis? d1 cis2
 		d r r a %55
 		b!1 a
 		g2 f g4( a h) cis

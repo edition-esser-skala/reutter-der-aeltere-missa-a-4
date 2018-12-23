@@ -260,9 +260,10 @@ kneeBeam = \once \override Beam.auto-knee-gap = #0
 	\context {
 		\Staff
 		\override InstrumentName.font-shape = #'italic
+		\override TimeSignature.style = #'mensural
+		\override NoteHead.style = #'baroque
 		\accidentalStyle neo-modern-voice
 		extraNatural = ##t
-		\override NoteHead.style = #'baroque
 		aDueText = \markup { \medium \remark "a 2" }
 	}
 	\context {

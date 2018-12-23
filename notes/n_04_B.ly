@@ -4,6 +4,17 @@
 
 \version "2.18.0"
 
+BassoIncipit = \markup {
+	"Basso" \hspace #-16 \score {
+		\new Staff \with {
+			\remove Time_signature_engraver
+		} {
+			\clef "mensural-f" s4 \bar empty
+		}
+		\layout { }
+	} \hspace #-.8
+}
+
 KyrieBassoNotes = {
 	\relative c {
 		\clef bass

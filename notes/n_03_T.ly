@@ -9,10 +9,10 @@ TenoreIncipit = \markup {
 		\new Staff \with {
 			\remove Time_signature_engraver
 		} {
-			\clef tenor s4 \bar empty
+			\clef "mensural-c4" s4 \bar empty
 		}
 		\layout { }
-	} \hspace #-1.8
+	} \hspace #-.8
 }
 
 KyrieTenoreNotes = {
@@ -53,7 +53,7 @@ KyrieTenoreNotes = {
 		g2 c a b
 		b2. a4 b1
 		r r2 d, %35
-		es1( d)
+		es1 d
 		r2 f f g4( f)
 		f2 r r d'
 		es1 d2 b
@@ -116,7 +116,7 @@ KyrieTenoreLyrics = \lyricmode {
 	_ i -- son, e --
 	le -- i -- son,
 	Chri -- %35
-	ste __
+	ste __ _
 	e -- le -- i --
 	son, Chri --
 	ste e -- _
