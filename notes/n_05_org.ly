@@ -29,7 +29,7 @@ KyrieOrgano = {
 		b1 b2. a8 b
 		c2 c1 g2~
 		g4 fis g1 fis2
-		\clef bass g2 g1 g2 %10
+		g2 \clef bass g1 g2 %10
 		d g1 f2
 		e d e1
 		d2 d4 e f1
@@ -40,8 +40,8 @@ KyrieOrgano = {
 		b2. a4 g f g a
 		b1 \clef "treble_8" d2 b
 		c\breve %20
-		\time 1/1 d1
-		\time 2/1 d, \clef bass g,2 c~
+		\time 1/1 d2-\critnote \clef bass d,~
+		\time 2/1 d1 g,2 c~
 		c b a g
 		a1 g2 g'~
 		\time 3/1 g4 f es2. d4 c2 d g %25
@@ -60,8 +60,8 @@ KyrieOrgano = {
 		g1 d
 		es4 d es c d2 g
 		es4 d c f b,1
-		r r2 d %35
-		es1 d2 g,
+		r r2 \clef "treble_8" d %35
+		es1 d2 \clef bass g,
 		b1 a2 g4 a
 		b a b c d e f d
 		g2. a4 b2 b,
@@ -77,7 +77,7 @@ KyrieOrgano = {
 			es1 d
 			c2 b c d %45
 		} >>
-		\clef bass g,1. g,2
+		\clef "treble_8" g,1. \clef bass g,2
 		b1 g2. g4
 		a1. a2
 		b2 d1 d2
@@ -87,9 +87,9 @@ KyrieOrgano = {
 		b4 a g a b c d2
 		g,4 a b2 g a
 		d f, g a %55
-		d g1 f2
+		d \clef "treble_8" g1 f2
 		e d e1
-		d2 f4 g a2 d,
+		d2 f4 g a2 \clef bass d,
 		es1 d
 		c2 b a g %60
 		d' es d1
