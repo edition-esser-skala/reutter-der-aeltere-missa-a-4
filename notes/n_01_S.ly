@@ -323,14 +323,14 @@ GloriaSopranoLyrics = \lyricmode {
 	_ _ _ _
 	_ _ _ _ men,
 	
-	a -- _
+	a -- _ %90
 	_ _ _ _
 	_ _ _ _ _ men,
 	a -- _ _ _ _
 	_ _ men,
-	a -- men,
+	a -- men, %95
 	a --
-	men.
+	men. %97 FINIS
 }
 
 % SopranoNotes = {

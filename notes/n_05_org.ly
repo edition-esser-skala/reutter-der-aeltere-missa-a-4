@@ -176,7 +176,7 @@ GloriaOrgano = {
 		f'1 b,2 b' %5
 		g a b1
 		a2 d, g1
-		d2 f es1
+		d2 f! es1
 		d4 es f g c,1
 		d b2 c %10
 		d\breve
@@ -200,7 +200,7 @@ GloriaOrgano = {
 		d1 g,2 \clef treble h'4 a
 		g2 c a4 g f2 %30
 		b1 c2 d
-		es? f \clef "treble_8" f, \clef bass b,~
+		e! f \clef "treble_8" f, \clef bass b,~
 		b c4 d es2. f4
 		g d g1 fis2
 		g1 g2 g4 a %35
@@ -208,8 +208,8 @@ GloriaOrgano = {
 		a4 f f g a2 b
 		f1 c2. d4
 		es2. f4 g d g2~
-		g4 fis8 e fis2 g c %40
-		fis,4 d d c b2 g
+		g4 fis8 e fis2 g \clef "treble_8" d' %40
+		fis,4 \clef bass d d c b2 g
 		g'1 c,
 		f f
 		b, h
@@ -253,7 +253,7 @@ GloriaOrgano = {
 		g, b2 \clef bass g,
 		d' d b2. c4
 		d1 r2 g
-		es4 d es c f2 d4 es %85
+		es4 es8-\critnote d es4 c f2 d4 es %85
 		f1 b,
 		r4 b es2. c4 f2~
 		f4 es d g c, f b,2
@@ -270,103 +270,103 @@ GloriaOrgano = {
 }
 
 GloriaBassFigures = \figuremode {
-	r\breve
+	r1. <6>2
+	q q <_-> <6>
+	<6\\>\breve %!!!
 	r
-	<6\\>
-	r
-	r %5
-	r
-	r
-	r
-	r1 <5 _->2 <6>
-	<_+>\breve %10
-	<_+>2 <4>1 <_+>2
-	r1 <5>
-	<6> <5>2 <6>
-	<5>1 q
+	<4>2 <3> r1 %5
+	<6>2 <\t> r <6>
+	<7> <6\\> r1
+	<_+>2 <6> <7> <6>
+	<[\t]>4 <[6]> <[6 4!]> <[\t \t]> <5 _->2 <6> %!!!
+	<_+>1 <[6]>2 <[6 _-]>4 <[5]> %10 %!!!
+	<[5] _+>2 <[6] 4> <[5 \t]> <\l _+> %!!!
+	r1 <5> %!!!
+	<6> <5>2 <6> %!!!
+	<5>1 q %!!!
 	r\breve %15
 	r
+	<_->1 <6>2 <6 _->
+	<7>2 <6> <_+>1
+	r <6>2 <6 _->
+	<4 2> <6> <_->1 %20
+	<_!> <6>
+	<_->1 q2 <8 6>4 <\t \t>
+	<4->2 <3> r1
+	r <5->
+	<6>2 <6-> <6 _->1 %25
+	r\breve
+	<7 _->2 <6>4 <5> <6\\>2 <_+>
+	r r4 <_-> <6>2 <_->
+	<4> <_+> r1
+	r\breve %30
 	r
 	r
+	r1.. <7->4
+	r1 <4 2>2 <6>
+	r1 <6->2. <\t>4 %35
+	r\breve
+	<6>2. <6->4 <6>1
+	r <_->
+	r\breve
+	<4 2>2 <6> r <1> %40
+	q4 <_+>2 <\t>4 <6>1
+	<_!> <_->
+	<7->2 <6 4> <5 \t> <\t 3>
+	r1 <6 5>
+	<_->2 <6 5->1. %45
+	r1 <_->
+	<6>1. q2
+	r2. <6>4 <5>2 <6>
+	<_-> <6> <7> <6\\>
+	r <1> q1 %50
+	q <6>
+	<_+>\breve
+	r1 <6>2 <_->
+	<4> <_!> q1
+	<[_+]> <6 4>2 <5 _+> %55 %!!!
+	<6 5!>\breve
+	r2 <_!> <4> <_+>
+	q\breve
 	r
-	r %20
+	r1 <1> %60
+	q2 q q4 q <6>2
+	r1 <6>
+	<_->2 \bassFigureExtendersOn q4 \bassFigureExtendersOff r <6>1
+	r\breve
+	r %65
+	<6> %!!!
 	r
-	r
-	r
-	r
-	r %25
-	r
-	r
-	r
-	r
-	r %30
-	r
-	r
-	r
-	r
-	r %35
-	r
-	r
-	r
-	r
-	r %40
-	r
-	r
-	r
-	r
-	r %45
-	r
-	r
-	r
-	r
-	r %50
-	r
-	r
-	r
-	r
-	r1 <6 4>2 <5 _+> %55
+	<6->1 <4->2 <3>
+	r1. <6>2
+	<_->1 <_!> %70
 	r\breve
 	r
-	r
-	r
-	r %60
-	r
-	r
-	r
-	r
-	r %65
-	<6>
-	r
-	r
-	r
-	r %70
-	r
-	r
-	r
-	r
-	r %75
-	r
-	r
-	r
-	r
-	r %80
-	r
-	r
-	r
-	r
-	r %85
-	r
-	r
-	r
-	r
-	r %90
-	r
-	r
-	<6>2 <5> <4> <_+>
-	<4> <_+> r1
-	r\breve %95
-	r
-	r %97 FINIS
+	r2 <6> q1
+	<9>4 <8> r2 <6>1
+	r <_+> %75
+	r <6>
+	<4>4 <3> r2 <6- 4 2> <6>
+	r <6> <7 _+>1
+	<4>2 <_+> r1
+	r <_-> %80
+	<6>\breve
+	r1 <6>
+	<_+> <6>2. <_->4
+	<[_+]>\breve
+	<6>2. <_->4 <7->2 <6> %85
+	<4>2. <3>4 r1
+	r2 <5> <6>4 <_-> r2
+	<4 2>4 <6> <7> q <7 _->1
+	r\breve
+	r1.. <_+>4 %90
+	r1 <5>2 <6>
+	<_->2 <6>4 <5> <1 1 1 1 1>1
+	<6>2 <5> <4> <_+> %!!!
+	<4>2. <_+>4 r1 %!!!
+	<_-> <6> %95
+	<_->\breve
+	<_!> %97 FINIS
 }
 
 % Organo = {
