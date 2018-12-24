@@ -146,12 +146,191 @@ GloriaSopranoNotes = {
 		\clef treble
 		\key g \dorian \time 2/1 \autoBeamOff
 			\set Staff.timeSignatureFraction = 2/2
-		
+		R\breve*3
+		d'2. d4 c2 b~
+		b a b d, %5
+		es2. es4 d2 d'
+		c1 b2 a4 g
+		fis2 r r1
+		r r2 a
+		fis fis g a4 g %10
+		fis2 g1 fis2
+		g1 b2. b4
+		b1 b2 b4 as
+		g1 f2 f~
+		f b g c %15
+		a4 a d2 d b
+		c a b a4 b
+		g1 fis
+		r r2 c'
+		d1 es %20
+		d r
+		c2 b as g4 g
+		f2. f4 g1
+		R\breve*2 %25
+		r1 r2 b~
+		b a!4( g) fis2 fis
+		r1 g2 g
+		g( fis) g g~
+		g4 f es2 f2.( es4) %30
+		d2 g2. a4 b2~
+		b a r1
+		r g2. a4
+		b2 g( a1)
+		g2 g es'1 %35
+		d r
+		r4 a a b c2( b)
+		a r r1
+		r4 g2 a4 b2. b4
+		a1 g %40
+		R\breve
+		r4 g g f es2 es4 g
+		a2 b b( a)
+		b1 g2. g4
+		g2 f2. f4 f2 %45
+		r1 c'2 a
+		d2. c4 b c d2~
+		d4 c b a g2 c
+		c g g( fis)
+		g1 r %50
+		r r2 d'
+		fis,1 g2 b
+		a4 a a a8 b c4 g c2~
+		c4 h?8[ a] h2 c1
+		cis2. cis4 d2 cis %55
+		c2. c4 c2 c
+		b a a1
+		a\breve\fermata
+		r1 b2. b4
+		b1 r %60
+		R\breve*3
+		r2 b g c
+		a2. g4 f2 a %65
+		b1 b2 b
+		b2. b4 b1
+		b2 g f1
+		g2 g1 g2
+		g1 g %70
+		R\breve*2
+		r2 g d' d
+		b2. c4 d1
+		r d %75
+		b4 b8 a b4 g c g c2~
+		c4 b b c8[ b] a1
+		b2 d4 d cis2 d
+		d( cis) d1
+		R\breve %80
+		r1 r2 d
+		b4 b8 a b4 g d'2 b
+		a a g4 d'2 c8[ b]
+		a2 a 4 d d d8 c d4 b
+		c2 c a b~ %85
+		b2. a4 b2 r4 f
+		b2. g4 c2. a4
+		b c2 b a4 b2
+		R\breve
+		r1 r4 g d'2~ %90
+		d4 c8[ d] b2. g4 c2~
+		c4 b8[ c] a4 g8[ a] f4 b2 a4
+		d2 c b4 a2 b8[ a]
+		g2. fis4 g1
+		g g %95
+		g\breve
+		g\fermata \bar "|." %97 FINIS
 	}
 }
 
 GloriaSopranoLyrics = \lyricmode {
+	Bo -- nae vo -- lun -- %4
+	ta -- tis. Lau -- %5
+	da -- mus te, be --
+	ne -- di -- ci -- mus
+	te,
+	glo --
+	ri -- fi -- ca -- _ _ %10
+	_ _ mus
+	te. Gra -- ti --
+	as a -- gi -- mus
+	ti -- bi pro --
+	pter ma -- gnam %15
+	glo -- ri -- am, pro -- pter
+	ma -- gnam glo -- ri -- am
+	tu -- am.
+	Rex
+	coe -- le -- %20
+	stis,
+	De -- us Pa -- ter o --
+	mni -- po -- tens,
 	
+	Je -- %26
+	su __ Chri -- ste,
+	Je -- su
+	Chri -- ste, Do --
+	mi -- ne De -- %30
+	us, A -- gnus De --
+	i,
+	Fi -- li --
+	us Pa --
+	tris. Qui tol -- %35
+	lis
+	pec -- ca -- ta mun --
+	di:
+	Mi -- se -- re -- re
+	no -- bis. %40
+	
+	Pec -- ca -- ta mun -- di, pec --
+	ca -- ta mun --
+	di: Su -- sci --
+	pe, su -- sci -- pe %45
+	de -- pre --
+	ca -- _ _ _ _
+	_ _ _ _ ti --
+	o -- nem no --
+	stram. %50
+	Qui
+	se -- _ _
+	des ad dex -- te -- ram Pa -- _
+	_ _ _ tris:
+	Mi -- se -- re -- re, %55
+	mi -- se -- re -- re
+	no -- _ _
+	bis.
+	Quo -- ni --
+	am %60
+	
+	tu so -- lus %64
+	Do -- mi -- nus, tu %65
+	so -- lus al --
+	tis -- si -- mus
+	Je -- su Chri --
+	ste, Je -- su
+	Chri -- ste. %70
+	
+	Cum San -- cto %73
+	Spi -- ri -- tu
+	in %75
+	glo -- ri -- a De -- i Pa -- _ _
+	_ _ _ _
+	tris, De -- i Pa -- tris,
+	a -- men,
+	%80
+	in
+	glo -- ri -- a De -- i Pa -- tris,
+	a -- men, a -- _ _
+	_ men, in glo -- ri -- a De -- i
+	Pa -- tris, a -- _ %85
+	_ men, a --
+	_ _ _ _
+	_ _ _ _ men,
+	
+	a -- _
+	_ _ _ _
+	_ _ _ _ _ men,
+	a -- _ _ _ _
+	_ _ men,
+	a -- men,
+	a --
+	men.
 }
 
 % SopranoNotes = {

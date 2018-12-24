@@ -361,10 +361,10 @@ GloriaBassFigures = \figuremode {
 	r
 	r %90
 	r
+	r
 	<6>2 <5> <4> <_+>
 	<4> <_+> r1
-	r\breve
-	r %95
+	r\breve %95
 	r
 	r %97 FINIS
 }

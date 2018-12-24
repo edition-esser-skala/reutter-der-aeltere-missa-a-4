@@ -46,105 +46,105 @@
 #(set-global-staff-size 15.87)
 
 \book {
-	\bookpart {
-		\header {
-			movement = "1 KYRIE"
-		}
-		\paper { indent = 25\mm }
-		\score {
-			<<
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = \SopranoIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Soprano" { \dynamicUp \KyrieSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \KyrieSopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = \AltoIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Alto" { \dynamicUp \KyrieAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \KyrieAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = \TenoreIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Tenore" { \dynamicUp \KyrieTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \KyrieTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = \BassoIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Basso" { \dynamicUp \KyrieBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \KyrieBassoLyrics
-				>>
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = \OrganoIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\KyrieOrgano
-					}
-				>>
-				\new FiguredBass {
-					\KyrieBassFigures
-				}
-			>>
-			\layout { }
-			\midi { \tempo 1 = 60 }
-		}
-	}
 % 	\bookpart {
 % 		\header {
-% 			movement = "2 GLORIA"
+% 			movement = "1 KYRIE"
 % 		}
+% 		\paper { indent = 25\mm }
 % 		\score {
 % 			<<
 % 				\new ChoirStaff <<
 % 					\new Staff {
-% 						\set Staff.instrumentName = "Soprano"
-% 						\new Voice = "Soprano" { \dynamicUp \GloriaSopranoNotes }
+% 						\set Staff.instrumentName = \SopranoIncipit
+% 						\override Staff.InstrumentName.self-alignment-Y = ##f
+% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+% 						\new Voice = "Soprano" { \dynamicUp \KyrieSopranoNotes }
 % 					}
-% 					\new Lyrics \lyricsto Soprano \GloriaSopranoLyrics
+% 					\new Lyrics \lyricsto Soprano \KyrieSopranoLyrics
 % 					
 % 					\new Staff {
-% 						\set Staff.instrumentName = "Alto"
-% 						\new Voice = "Alto" { \dynamicUp \GloriaAltoNotes }
+% 						\set Staff.instrumentName = \AltoIncipit
+% 						\override Staff.InstrumentName.self-alignment-Y = ##f
+% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+% 						\new Voice = "Alto" { \dynamicUp \KyrieAltoNotes }
 % 					}
-% 					\new Lyrics \lyricsto Alto \GloriaAltoLyrics
+% 					\new Lyrics \lyricsto Alto \KyrieAltoLyrics
 % 					
 % 					\new Staff {
-% 						\set Staff.instrumentName = "Tenore"
-% 						\new Voice = "Tenore" { \dynamicUp \GloriaTenoreNotes }
+% 						\set Staff.instrumentName = \TenoreIncipit
+% 						\override Staff.InstrumentName.self-alignment-Y = ##f
+% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+% 						\new Voice = "Tenore" { \dynamicUp \KyrieTenoreNotes }
 % 					}
-% 					\new Lyrics \lyricsto Tenore \GloriaTenoreLyrics
+% 					\new Lyrics \lyricsto Tenore \KyrieTenoreLyrics
 % 					
 % 					\new Staff {
-% 						\set Staff.instrumentName = "Basso"
-% 						\new Voice = "Basso" { \dynamicUp \GloriaBassoNotes }
+% 						\set Staff.instrumentName = \BassoIncipit
+% 						\override Staff.InstrumentName.self-alignment-Y = ##f
+% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+% 						\new Voice = "Basso" { \dynamicUp \KyrieBassoNotes }
 % 					}
-% 					\new Lyrics \lyricsto Basso \GloriaBassoLyrics
+% 					\new Lyrics \lyricsto Basso \KyrieBassoLyrics
 % 				>>
 % 				\new StaffGroup <<
 % 					\new Staff {
-% 						\set Staff.instrumentName = "Organo"
-% 						\GloriaOrgano
+% 						\set Staff.instrumentName = \OrganoIncipit
+% 						\override Staff.InstrumentName.self-alignment-Y = ##f
+% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+% 						\KyrieOrgano
 % 					}
 % 				>>
 % 				\new FiguredBass {
-% 					\GloriaBassFigures
+% 					\KyrieBassFigures
 % 				}
 % 			>>
 % 			\layout { }
 % 			\midi { \tempo 1 = 60 }
 % 		}
 % 	}
+	\bookpart {
+		\header {
+			movement = "2 GLORIA"
+		}
+		\score {
+			<<
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \GloriaSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \GloriaSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \GloriaAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \GloriaAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \GloriaTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \GloriaTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \GloriaBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \GloriaBassoLyrics
+				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Organo"
+						\GloriaOrgano
+					}
+				>>
+				\new FiguredBass {
+					\GloriaBassFigures
+				}
+			>>
+			\layout { }
+			\midi { \tempo 1 = 60 }
+		}
+	}
 }
