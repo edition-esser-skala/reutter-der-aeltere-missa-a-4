@@ -369,6 +369,19 @@ GloriaBassFigures = \figuremode {
 	<_!> %97 FINIS
 }
 
+CredoOrgano = {
+	\relative c {
+		\clef treble
+		\key g \dorian \time 2/1
+			\set Staff.timeSignatureFraction = 2/2
+		g''1 d2 g
+	}
+}
+
+CredoBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

@@ -319,6 +319,19 @@ GloriaBassoLyrics = \lyricmode {
 	men. %97 FINIS
 }
 
+CredoBassoNotes = {
+	\relative c {
+		\clef bass
+		\key g \dorian \time 2/1 \autoBeamOff
+			\set Staff.timeSignatureFraction = 2/2
+		
+	}
+}
+
+CredoBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass
