@@ -113,7 +113,7 @@ partTitle = #(define-scheme-function
 %
 %
 
-
+tasto = \markup { \remark "tasto solo" }
 
 t = \markup { \combine \fontsize #-2 \transparent \number 5 \raise #.6 \draw-line #'(1 . 0) }
 l = \markup { \fontsize #-2 \transparent \number 5 }
@@ -123,6 +123,18 @@ trillE = \tweak self-alignment-X #CENTER ^\markup { \hspace #1.5 [ \musicglyph #
 extraNat = \once \override Accidental.restore-first = ##t
 kneeBeam = \once \override Beam.auto-knee-gap = #0
 
+tempoMarkup =
+	#(define-music-function
+		(parser location arg)
+		(markup?)
+	#{
+		\tempo \markup \medium { \larger \larger #arg }
+	#})
+%
+
+tempoEtIncarnatus = \tempoMarkup "Largo"
+tempoExMaria = \tempoMarkup "Vivace"
+tempoCredoFinis = \tempoMarkup "Adagio"
 
 
 % modify the Scheme function 'format-bass-figure'
