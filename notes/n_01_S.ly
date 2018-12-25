@@ -460,7 +460,7 @@ CredoSopranoNotes = {
 			R\breve*2 %121
 		g2 d' d( c)
 		b b4 a g2 g4 a
-		b2.( as4) g1
+		b2. as4 g1
 		r c2. c4 %125
 		b2 g a4 g8[ a] b2~
 		b2. a4 b1
@@ -476,7 +476,7 @@ CredoSopranoNotes = {
 		g2 r r1
 		R\breve*2 %141
 		r1 c~
-		c2 b a a
+		c2 b a! a
 		d a b d
 		c b a a %145
 		b1 b
@@ -617,7 +617,7 @@ CredoSopranoLyrics = \lyricmode {
 	
 	Qui ex Pa -- %122
 	tre Fi -- li -- o -- que pro --
-	ce -- dit.
+	ce -- _ dit.
 	Si -- mul %125
 	ad -- o -- ra -- _ _
 	_ tur:
@@ -628,9 +628,9 @@ CredoSopranoLyrics = \lyricmode {
 	san -- ctam ca --
 	tho -- li -- cam. %135
 	
-	U -- %137
+	u -- %137
 	num ba -- pti --
-	sma.
+	sma
 	
 	Et __ %142
 	ex -- pe -- cto

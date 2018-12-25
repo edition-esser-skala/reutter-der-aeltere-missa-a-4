@@ -350,12 +350,335 @@ CredoAltoNotes = {
 		\clef treble
 		\key g \dorian \time 2/1 \autoBeamOff
 			\set Staff.timeSignatureFraction = 2/2
-		
+		g'1 d2 g
+		f es d1
+		es2 d es4( f) g2
+		g f4 f g2 g
+		f4( e8[ f]) g2 a( f) %5
+		f1 f2 g
+		f1 f
+		d es
+		f1. es4 d
+		es( c f) es d1 %10
+		R\breve
+		r4 f2 f4 f2 e
+		e2. e4 fis2 r
+		R\breve
+		r1 d2 d4 d %15
+		es2 es g1
+		es d~
+		d2 d d1
+		g2. g4 f2 d
+		es1 f %20
+		r2 f g as~
+		as4 as g2 f2. es?4
+		d2 c4( h c2.) c4
+		h1 r
+		r2 g' d e %25
+		f es d1
+		c1. c2
+		d g f e
+		c f g1
+		f es2 r %30
+		r f d4( e) f2
+		f2. e4 f1
+		f2 f f f4 f
+		f1 d2( g)
+		f1 f %35
+		R\breve
+		f2 es d d
+		\time 1/1 d c
+		\time 2/1 d\breve~
+		d2 c d1 %40
+		r2 g es es
+		f1 r2 g~
+		g4 g g2 g2. fis4
+		g2 d es1
+		d2 g f es %45
+		d1 r
+		r2 g d f
+		g1 f2 g
+		es1 d
+		r2 f es f %50
+		d es1 d2~
+		d c d1
+		\time 1/1 d2 d
+		\time 2/1 d\breve
+		d\fermata %55
+		\tempoEtIncarnatus g1 g2 g
+		g1. g2
+		g1 r2 d
+		es2. es4 d1
+		es d %60
+		\time 3/1 \set Staff.timeSignatureFraction = 3/4 \tempoExMaria
+			r1 es es
+		d\breve d1
+		r f f
+		f\breve es1
+		f\breve f1 %65
+		e!\breve e1
+		f\breve f1
+		f\breve e!1
+		f\breve f1
+		f\breve es1( %70
+		g) g1. g2
+		g\breve.
+		\time 2/1 \set Staff.timeSignatureFraction = 2/2
+			R\breve
+		r1 c,2. c4
+		c2 g g'2. f4 %75
+		es2 es d( es)
+		es?1 g2. g4
+		g2 d d2. d4
+		g2. a4 g1(
+		a) g2 g %80
+		f4 e f c d2 d4 d
+		d c d f g( f es f)
+		f2 f1 f2
+		g2. g4 f2 f
+		r1 d2. d4 %85
+		d2 d d4 c b c
+		d2. d4 d\breve*1/2
+		\time 3/1 \set Staff.timeSignatureFraction = 3/4
+			R\breve.
+		d1 f d
+		es1. d2 es c %90
+		d\breve.
+		f
+		R
+		f1. f2 f1
+		f1. f2 e!1 %95
+		f f fis
+		g\breve fis1
+		d d c
+		d r r
+		R\breve.*2 %101
+		f1 f f
+		d1. e!2 f( c)
+		f\breve e1
+		f r r %105
+		f d1. d2
+		e1 a g
+		f\breve f1
+		f\breve es1
+		d\breve d1 %110
+		g f1. f2
+		f1 r r
+		r d e!
+		f\breve es1
+		d\breve c1 %115
+		d\breve.
+		es1 es es
+		d\breve.
+		d
+		\time 2/1 \set Staff.timeSignatureFraction = 2/2
+			r1 d2 g %120
+		f d es1
+		d es
+		r2 es4 f b,2 b4 es
+		es d8[ c] d2 es1
+		r es2 f %125
+		g es1 d2~
+		d4 c8[ b] c2 d1
+		R\breve*2
+		f2 f fis fis %130
+		g g1 g2
+		fis g1 fis2
+		g r r4 b,! c d
+		es2. es4 d( h) c( d)
+		es2 d4( c) h2 r %135
+		r f' as2. as4
+		g1 r
+		R\breve
+		r2 g1 f2
+		es1 e %140
+		f2 e! as g~
+		g f1 e!2
+		f r r1
+		r g2 d
+		e4( fis) g2 fis fis %145
+		g g d d
+		d d g d
+		c d d1
+		c4 d es c g'2. f4
+		es f g1 fis2 %150
+		g1 g
+		es2 d4 c as'2 es4( f)
+		f f es2 es2.( d4)
+		es2 es( d2.) d4
+		d1 d2 r %155
+		r1 fis4 g a fis
+		g2 g g4 f g es
+		f2 f d4 es f d
+		es2. es4 d2 d
+		d1 d %160
+		\tempoCredoFinis es2 d es1
+		d\longa*1/2\fermata \bar "|." %162 FINIS
 	}
 }
 
 CredoAltoLyrics = \lyricmode {
+	Pa -- trem o --
+	mni -- po -- ten --
+	tem, o -- mni -- po --
+	ten -- tem, fa -- cto -- rem
+	coe -- li et __ %5
+	ter -- rae, et
+	ter -- rae,
+	vi -- si --
+	bi -- li -- um
+	o -- mni -- um %10
 	
+	et in -- vi -- si --
+	bi -- li -- um.
+	
+	Fi -- li -- um %15
+	De -- i u --
+	ni -- ge --
+	ni -- tum,
+	et ex Pa -- tre
+	na -- tum %20
+	an -- te o --
+	mni -- a, o -- mni --
+	a sae -- cu --
+	la.
+	De -- um de %25
+	De -- _ _
+	o, De --
+	um de De -- _
+	_ _ _
+	_ o, %30
+	lu -- men __ de
+	lu -- mi -- ne
+	De -- um ve -- rum de
+	De -- o __
+	ve -- ro, %35
+	
+	con -- sub -- stan -- ti --
+	a -- lem
+	Pa --
+	_ tri %40
+	Per quem, per
+	quem o --
+	mni -- a fa -- cta
+	sunt. Qui pro --
+	pter nos ho -- mi -- %45
+	nes
+	et pro -- pter
+	no -- stram sa --
+	lu -- tem
+	de -- scen -- _ %50
+	_ _ _
+	_ _
+	dit de
+	coe --
+	lis. %55
+	Et in -- car --
+	na -- [tus
+	est] de
+	Spi -- [ri -- tu
+	San -- cto] %60
+	ex Ma --
+	ri -- a,
+	[ex Ma --
+	ri -- a]
+	Vir -- gi -- %65
+	ne, et
+	ho -- mo
+	fa -- ctus
+	est, et
+	ho -- mo __ %70
+	fa -- ctus
+	est.
+	
+	Cru -- ci --
+	fi -- xus e -- ti -- %75
+	am pro no --
+	bis, cru -- ci --
+	fi -- xus e -- ti --
+	am pro no --
+	bis, sub %80
+	Pon -- ti -- o Pi -- la -- to, sub
+	Pon -- ti -- o Pi -- la --
+	to pas -- sus
+	et se -- pul -- tus,
+	pas -- sus %85
+	et se -- pul -- _ _ _
+	_ tus est.
+	
+	Et re -- sur --
+	re -- _ _ _ %90
+	_
+	xit
+	
+	ter -- ti -- a,
+	ter -- ti -- a %95
+	di -- e se --
+	cun -- dum
+	Scri -- ptu -- _
+	ras.
+	
+	Se -- det ad %102
+	dex -- te -- ram __
+	Pa -- _
+	tris. %105
+	
+	Cum glo -- ri --
+	[a ju -- di --
+	ca -- re
+	vi -- vos,
+	vi -- vos %110
+	et mor -- tu --
+	os:]
+	Non, non
+	e -- rit
+	fi -- nis, %115
+	non,
+	non e -- rit
+	fi --
+	nis.
+	Et vi -- %120
+	vi -- fi -- can -- _
+	tem.
+	Fi -- li -- o -- que pro --
+	ce -- _ _ dit.
+	Si -- mul %125
+	ad -- o -- ra --
+	_ _ tur:
+	
+	Qui lo -- cu -- tus %130
+	est per pro --
+	phe -- _ _
+	tas. Et a -- po --
+	sto -- li -- cam __ ec --
+	cle -- si -- am. %135
+	Con -- fi -- te --
+	or
+	
+	in re --
+	mis -- si -- %140
+	o -- nem pec -- ca --
+	_ [to] --
+	rum.
+	Re -- sur --
+	re -- cti -- o -- nem %145
+	mor -- tu -- o -- rum,
+	mor -- tu -- o -- _
+	_ _ rum,
+	a -- _ _ _ _ _
+	_ _ _ _ %150
+	men, et
+	vi -- tam ven -- tu -- ri __
+	sae -- cu -- li, a --
+	men, a -- men,
+	a -- men, %155
+	a -- _ _ _
+	_ men, a -- _ _ _
+	_ men, a -- _ _ _
+	_ men, a -- men,
+	a -- men,
+	a -- men, a --
+	men.
 }
 
 % AltoNotes = {
