@@ -338,12 +338,321 @@ CredoSopranoNotes = {
 		\clef treble
 		\key g \dorian \time 2/1 \autoBeamOff
 			\set Staff.timeSignatureFraction = 2/2
-		
+		R\breve
+		r1 d'
+		g,2 d' c b
+		a a4 d es2 c
+		d1 d2 d %5
+		c4( a b c) d2 c4( b)
+		b( a8[ g] a2) b f~
+		f g1 a2~
+		a g4 f b2. b4
+		a1 r %10
+		R\breve
+		r4 a2 a4 a2 b
+		a2. a4 a2 r
+		R\breve*2 %15
+		g2 g4 a b2 b
+		a4( fis) g2 fis g~
+		g2. fis4 g1
+		b2. b4 b2 b4( as)
+		g2( a) b1 %20
+		R\breve
+		r1 c2 d
+		h a4 g g2. f4
+		g1 r
+		R\breve*2 %26
+		r2 c g a
+		b1. a4 g
+		a1 h2 c~
+		c h c r %30
+		R\breve
+		r1 r2 c~
+		c c a b4 c
+		d1. c2
+		c1 d %35
+		R\breve
+		r1 b2 a
+		\time 1/1 g a
+		\time 2/1 b2. a4 g a b( a)
+		g1 fis2 d' %40
+		b b c1~
+		c r2 d~
+		d4 c b2 c2. c4
+		b1 r
+		R\breve %45
+		r2 d c a
+		b1 a2 d~
+		d c1 b2~
+		b a b1
+		d c %50
+		b a
+		g fis
+		\time 1/2 g2 g
+		g1. fis2
+		g\breve\fermata %55
+		\tempoEtIncarnatus h1 h2 h
+		c1. c2
+		h1 g
+		g2. g4 g1
+		g g %60
+		\time 3/1 \set Staff.timeSignatureFraction = 3/4 \tempoExMaria
+			r1 g g
+		f\breve f1
+		r as as
+		g\breve c1
+		c\breve b1 %65
+		c\breve c1
+		as\breve b1
+		g\breve g1
+		a!\breve c1
+		h?\breve c1~ %70
+		c c1. h2
+		c\breve.
+		\time 2/1 \set Staff.timeSignatureFraction = 2/2
+			g2. g4 g2 c,
+		c'2. b4 as2 as
+		g4 as b2. c4 d2~ %75
+		d c h c
+		R\breve
+		d2. d4 d2 g,
+		c c b b
+		c( d) d1 %80
+		r2 c b4 a b g
+		a2 d c1
+		b d2 d
+		c2. c4 c2 c
+		r1 fis,2. fis4 %85
+		g2 fis g1~
+		g2 fis g\breve*1/2
+		\time 3/1 \set Staff.timeSignatureFraction = 3/4
+			g1 b g
+		d'\breve d1
+		g, c\breve %90
+		b1 g2 a b1
+		a\breve a1
+		R\breve.*2
+		b1. b2 b1 %95
+		a a a
+		b\breve a1
+		b g\breve
+		fis1 r r
+		R\breve.*2 %101
+		b1 b b
+		b1. b2 a1~
+		a g\breve
+		a1 r r %105
+		c d1. d2
+		cis1 e e
+		e d\breve
+		d1 c\breve
+		b b1 %110
+		b b1. a2
+		b1 d c
+		b\breve b1
+		a\breve.
+		g1 b a %115
+		g a b
+		g\breve g1~
+		g g( fis)
+		g\breve.
+		\time 2/1 \set Staff.timeSignatureFraction = 2/2
+			R\breve*2 %121
+		g2 d' d( c)
+		b b4 a g2 g4 a
+		b2.( as4) g1
+		r c2. c4 %125
+		b2 g a4 g8[ a] b2~
+		b2. a4 b1
+		R\breve*3 %130
+		r2 c1 c2~
+		c b a1
+		h2 g g g
+		g1 g2 g
+		g2. g4 g2 r %135
+		R\breve
+		r1 r2 c
+		b c as1
+		g2 r r1
+		R\breve*2 %141
+		r1 c~
+		c2 b a a
+		d a b d
+		c b a a %145
+		b1 b
+		R\breve
+		r2 d b a4 g
+		es'1. d2
+		c4 c b2 a1 %150
+		b r
+		r c4 d es c
+		d2 es as,1
+		g2 a4 g fis2 g~
+		g fis g1 %155
+		r d'
+		b2 a4 g es'2 c
+		a4( b) c a d2 d
+		g,2. a4 fis e8[ fis] g2~
+		g4 fis8[ e] fis2 g1 %160
+		\tempoCredoFinis g2 g g1
+		g\longa*1/2\fermata \bar "|." %162 FINIS
 	}
 }
 
 CredoSopranoLyrics = \lyricmode {
+	Pa -- %2
+	trem o -- mni -- po --
+	ten -- tem, fa -- cto -- rem
+	coe -- li et %5
+	ter -- rae, et __
+	ter -- rae, vi --
+	si -- bi --
+	li -- um o -- mni --
+	um %10
 	
+	et in -- vi -- si --
+	bi -- li -- um.
+	
+	Fi -- li -- um De -- i %16
+	u -- ni -- ge -- _
+	ni -- tum,
+	et ex Pa -- tre __
+	na -- tum %20
+	
+	an -- te
+	o -- mni -- a sae -- cu --
+	la.
+	
+	De -- um de %27
+	De -- _ _
+	_ _ _
+	_ [o,] %30
+	
+	De --
+	um ve -- rum de
+	De -- o
+	ve -- ro, %35
+	
+	con -- sub --
+	stan -- ti --
+	a -- _ _ _ lem __
+	Pa -- tri: Per %40
+	quem, per quem __
+	o --
+	mni -- a fa -- cta
+	sunt.
+	%45
+	Et pro -- pter
+	no -- stram sa --
+	lu -- _
+	_ tem
+	de -- scen -- %50
+	_ _
+	_ _
+	dit de
+	coe -- _
+	lis. %55
+	Et in -- car --
+	na -- tus
+	est de
+	Spi -- ri -- tu
+	San -- cto %60
+	ex Ma --
+	ri -- a,
+	ex Ma --
+	ri -- a
+	Vir -- gi -- %65
+	ne, et
+	ho -- mo
+	fa -- ctus
+	est, et
+	ho -- mo __ %70
+	fa -- ctus
+	est.
+	Cru -- ci -- fi -- xus
+	e -- ti -- am pro
+	no -- _ _ _ _ %75
+	_ _ bis,
+	
+	cru -- ci -- fi -- xus
+	e -- ti -- am pro
+	no -- bis, %80
+	sub Pon -- ti -- o Pi --
+	la -- _ _
+	to pas -- sus
+	et se -- pul -- tus,
+	pas -- sus %85
+	et se -- pul --
+	tus est.
+	Et re -- sur --
+	re -- xit,
+	re -- sur -- %90
+	re -- _ _ _
+	_ xit
+	
+	ter -- ti -- a %95
+	di -- e se --
+	cun -- dum
+	Scri -- ptu --
+	ras.
+	
+	Se -- det ad %102
+	dex -- te -- ram __
+	Pa --
+	tris. %105
+	Cum glo -- ri --
+	a ju -- di --
+	ca -- re
+	vi -- vos,
+	vi -- vos %110
+	et mor -- tu --
+	os: Cu -- ius
+	re -- gni,
+	re --
+	gni, cu -- ius %115
+	re -- gni non
+	e -- rit __
+	fi --
+	nis.
+	
+	Qui ex Pa -- %122
+	tre Fi -- li -- o -- que pro --
+	ce -- dit.
+	Si -- mul %125
+	ad -- o -- ra -- _ _
+	_ tur:
+	
+	Per pro -- %131
+	_ phe --
+	tas. Et u -- nam
+	san -- ctam ca --
+	tho -- li -- cam. %135
+	
+	U -- %137
+	num ba -- pti --
+	sma.
+	
+	Et __ %142
+	ex -- pe -- cto
+	re -- sur -- re -- cti --
+	o -- nem mor -- tu -- %145
+	o -- rum,
+	
+	et vi -- tam ven --
+	tu -- ri
+	sae -- cu -- li, a -- %150
+	men,
+	a -- _ _ _
+	_ _ _
+	men, a -- _ _ _
+	_ men, %155
+	et
+	vi -- tam ven -- tu -- ri
+	sae -- cu -- li, a -- men,
+	a -- _ _ _ _
+	_ _ men, %160
+	a -- men, a --
+	men. %162 FINIS
 }
 
 % SopranoNotes = {

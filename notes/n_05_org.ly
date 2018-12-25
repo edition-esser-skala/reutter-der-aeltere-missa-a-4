@@ -445,7 +445,8 @@ CredoOrgano = {
 		g1. g2
 		g1 g
 		c, g' %60
-		\time 3/1 \set Staff.timeSignatureFraction = 3/4 \tempoExMaria
+		\time 3/1 \set Staff.timeSignatureFraction = 3/4
+			\newSpacingSection \tempoExMaria
 			r1 es es
 		b\breve b1
 		r1 f' f
@@ -458,8 +459,8 @@ CredoOrgano = {
 		g\breve c,1~ %70
 		c g'1. g2
 		c,\breve.
-		\time 2/1 \set Staff.timeSignatureFraction = 2/2 \clef treble
-			g''2. g4 g2 c,
+		\time 2/1 \set Staff.timeSignatureFraction = 2/2 \newSpacingSection
+			\clef treble g''2. g4 g2 c,
 		<< {
 			c'2. b4 as2 as
 			g4 as b2. c4 d2 %75
@@ -479,8 +480,8 @@ CredoOrgano = {
 		r d %85
 		d d
 		d g,\breve*1/2
-		\time 3/1 \set Staff.timeSignatureFraction = 3/4 \clef treble
-			g''1 b g
+		\time 3/1 \set Staff.timeSignatureFraction = 3/4 \newSpacingSection
+			\clef treble g''1 b g
 		<< {
 			d'\breve.
 			g,1 c\breve %90
@@ -522,7 +523,7 @@ CredoOrgano = {
 		es d c~
 		c d\breve
 		g,\breve.
-		\time 2/1 \set Staff.timeSignatureFraction = 2/2
+		\time 2/1 \set Staff.timeSignatureFraction = 2/2 \newSpacingSection
 			\clef "treble_8" g'2-\tasto a b a4 g %120
 		a2 h c4 g c2~
 		c h c1
@@ -575,7 +576,7 @@ CredoOrgano = {
 		es d es c d1
 		d g, %160
 		\tempoCredoFinis c2 h c1
-		g\breve\fermata \bar "|." %162 FINIS
+		g\longa*1/2\fermata \bar "|." %162 FINIS
 	}
 }
 
@@ -597,12 +598,12 @@ CredoBassFigures = \figuremode {
 	r <5> %15
 	<_->\breve
 	<6 _->2 <5> <7 _+>1
-	<4>2 <_+> r1
+	<4>2. <_+>4 r1
 	<5> <6>
 	<5 3>2 <6 4> <5>1 %20
 	r1. <_->2
-	<5-> <3> r <_->
-	<_!>1 <7>2 <6>
+	<5-> <3> r <[6] _->
+	<_!>1 <7>2. <6>4
 	<_!>2 <1> q q
 	q <6>1 <\t>2 %25
 	<6> <_-> <4 2> <6>
@@ -613,27 +614,27 @@ CredoBassFigures = \figuremode {
 	<6>1. q2
 	<7> <6> r1
 	<5 3>\breve
-	<6>
-	<4>2 <3> r1 %35
+	<6>1. <[6]>2
+	<4> <3> r1 %35
 	<1>2. q4 q2 q
 	<5 3>1 <6 3>2 <5>
 	<6> q
 	r1 <[6]>
 	<7>2 <6> <_+> <1> %40
-	q q q1
+	q q q <[_-]>
 	<6>\breve
 	r1 <7>2 <6\\>
 	r1 <6->
 	r <6>2 <6-> %45
-	<5>1 <6\\>
-	r <6>
+	<5>1 <6\\>2 <[6]>
+	r1 <6>
 	<7>2 <6> <7> <5>
 	<7 _-> <6> r1
 	r <4 2>2 <6> %50
 	<4 2> <6> <4 2> <6>
 	<7> <6> <_+>1
 	<6>2 <\t>
-	<4>1 <_+>
+	<4>1. <_+>2
 	<[_!]>\breve %55
 	<5 _!>
 	<6 4->1. <\t \t>2
@@ -650,7 +651,7 @@ CredoBassFigures = \figuremode {
 	<5 4>\breve <\t _!>1
 	r\breve <6>1
 	<7 _!>\breve <[_-]>1 %70
-	r <5 4> <\l _!>
+	r <5 4>1. <\l _!>2
 	<[_-]>\breve.
 	r\breve
 	r
@@ -659,7 +660,7 @@ CredoBassFigures = \figuremode {
 	<_->1. q2
 	<5>1.. \bassFigureExtendersOn q4 \bassFigureExtendersOff
 	<6>\breve
-	<2>2 <3> r1 %80
+	<2>2 <[6] 3> r1 %80
 	<6>2 <5> r1
 	<6>2. \bassFigureExtendersOn q4 <6\!>2. <6>4 \bassFigureExtendersOff
 	r\breve
@@ -688,9 +689,9 @@ CredoBassFigures = \figuremode {
 	r1 <5>\breve
 	<_+>1 <6> \breve
 	<9>1 <8>\breve
-	<6 4> <5 _->1
+	<6 4>1 <5 _!>\breve
 	r\breve. %110
-	r1 <4> <3>
+	r1 <4>1. <3>2
 	r\breve.
 	r
 	r
@@ -706,7 +707,7 @@ CredoBassFigures = \figuremode {
 	r1. <_->2
 	q <_!> <5-> <6> %125
 	<_->1 <7->
-	<6 4>2 <5 3> r <1>
+	<6 4>2 <[5 \t]>4 <5 3> r2 <1>
 	q q q r
 	r\breve
 	<5>2 <\t> <6\\>1 %130
@@ -716,7 +717,7 @@ CredoBassFigures = \figuremode {
 	<_->\breve
 	<[_-]>2 <[6]> <_!>1 %135
 	<5 3>1 <_->
-	<_!> <3>2 <4 2>
+	<_!> <3>2 <4 [3]>
 	<6>1 <7>2 <6>
 	r1 <6>2 <5>
 	<_->1 <8 _!>2 <7> %140
@@ -738,7 +739,7 @@ CredoBassFigures = \figuremode {
 	<7>2 <6> <_+> <[6]>
 	r1 <_->2 <6>
 	r1 <5>
-	<5> <5 _+>2 <6 4>
+	<5>2. <[6 _-]>4 <5 _+>2 <6 4>
 	<5 4> <\t _+> r1 %160
 	<_->2 <6> <[_-]>1
 	<5 _!>\breve %162 FINIS
