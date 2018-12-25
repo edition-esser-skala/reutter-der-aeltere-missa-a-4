@@ -324,7 +324,7 @@ GloriaAltoLyrics = \lyricmode {
 	San -- cto Spi -- ri --
 	tu in glo -- ri --
 	a De -- i Pa -- tris,
-	a -- men, cum
+	a -- men. Cum
 	San -- cto Spi -- ri -- %80
 	tu in glo -- ri -- a De -- i
 	Pa -- tris, a --

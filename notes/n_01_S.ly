@@ -231,7 +231,7 @@ GloriaSopranoNotes = {
 		R\breve
 		r1 r4 g d'2~ %90
 		d4 c8[ d] b2. g4 c2~
-		c4 b8[ c] a4 g8[ a] f4 b2 a4
+		c4 b8[ c] a4 g8[ a] fis?4 b2 a4
 		d2 c b4 a2 b8[ a]
 		g2. fis4 g1
 		g g %95
@@ -312,9 +312,9 @@ GloriaSopranoLyrics = \lyricmode {
 	glo -- ri -- a De -- i Pa -- _ _
 	_ _ _ _
 	tris, De -- i Pa -- tris,
-	a -- men,
+	a -- men.
 	%80
-	in
+	In
 	glo -- ri -- a De -- i Pa -- tris,
 	a -- men, a -- _ _
 	_ men, in glo -- ri -- a De -- i

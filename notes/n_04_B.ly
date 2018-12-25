@@ -134,12 +134,189 @@ GloriaBassoNotes = {
 		\clef bass
 		\key g \dorian \time 2/1 \autoBeamOff
 			\set Staff.timeSignatureFraction = 2/2
-		
+		r2 g'1 f2
+		es d c b
+		a2. a4 g2 g'~
+		g d f b,
+		f'1 b, %5
+		r1 r2 b'(
+		a2) d, g g4 g
+		d2 d es1
+		d4( es) f( g) c,1
+		r2 d b c %10
+		d1. d2
+		g,1 es'2. es4
+		d1 es2 d4 d
+		es1 b
+		R\breve %15
+		r1 b2 es
+		c f d c4 b
+		es1 d2 d~
+		d d4 d es2 c
+		c h c4 d es f %20
+		g2 g r1
+		R\breve
+		r1 es2 es4 es
+		f2 g as1~
+		as2 g f1 %25
+		es4 f g( as) b1
+		r1 r2 d,~
+		d c4( b) es2 c
+		d1 g,2 r
+		R\breve*2 %31
+		r1 r2 b~
+		b c4 d es2. f4
+		g d g1 fis2
+		g1 r %35
+		r2 b,^\critnote b'1
+		a4 f f g a2( b)
+		f1 r4 c2 d4
+		es2. f4 g d g2~
+		g4 fis8[ e] fis2 g1 %40
+		r4 d d c b2 g4 g'
+		g2 g c, c4 c
+		f2 f f1
+		b, h2. h4
+		c2 a2. a4 b2 %45
+		r1 r2 \clef bass f'
+		d g2. a4 b a
+		g2. f4 es2. d4
+		c2 b a1
+		g r %50
+		r4 d' d d8 c b2. c4
+		d c b a g1
+		d'2 d es c4 c
+		g1 c
+		a2. a4 a2 a %55
+		fis'2. fis4 fis2 fis
+		g d a'1
+		d,\breve\fermata
+		b2. b4 b1~
+		b r %60
+		R\breve*4
+		r1 r2 f' %65
+		d d4 d es f g a
+		b2. b4 b1
+		g2 es b1
+		es2 es1 h2
+		c1 g' %70
+		R\breve*3
+		r2 g f!4 f8 e f4 d
+		g2 g r d %75
+		g g es2. f4
+		g2 g g fis
+		g b4 b a2 d,
+		a'1 d,
+		R\breve*2 %81
+		r1 r2 g,
+		d' d b2. c4
+		d1 r2 g
+		es4 es8 d es4 c f2 d4( es) %85
+		f1 b,
+		r4 b es2. c4 f2~
+		f4 es d g c, f b,2
+		R\breve
+		r1 r2 r4 d %90
+		g2. f8[ g] es2. d8[ es]
+		\once \tieDashed c2~ c d1
+		d d
+		d g
+		c, h %95
+		c\breve
+		g\fermata \bar "|." %97 finis
 	}
 }
 
 GloriaBassoLyrics = \lyricmode {
+	Et in
+	ter -- ra pax ho --
+	mi -- ni -- bus bo --
+	nae vo -- lun --
+	ta -- tis. %5
+	Be --
+	ne -- di -- ci -- mus
+	te, ad -- o --
+	ra -- mus te,
+	glo -- ri -- fi -- %10
+	ca -- mus
+	te. Gra -- ti --
+	as a -- gi -- mus
+	ti -- bi
+	%15
+	pro -- pter
+	ma -- gnam glo -- ri -- am
+	tu -- am. Do --
+	mi -- ne De -- us,
+	Rex coe -- le -- _ _ _ %20
+	_ stis,
 	
+	Do -- mi -- ne
+	Fi -- li u --
+	ni -- ge -- %25
+	_ _ ni -- te,
+	Je --
+	su, __ Je -- su
+	Chri -- ste,
+	
+	Fi -- %32
+	li -- us Pa -- _
+	_ _ _ _
+	tris. %35
+	Qui tol --
+	lis pec -- ca -- ta mun --
+	di: Mi -- se --
+	re -- re no -- _ _
+	_ _ bis. %40
+	Pec -- ca -- ta mun -- di, pec --
+	ca -- ta mun -- di, pec --
+	ca -- ta mun --
+	di: Su -- sci --
+	pe, su -- sci -- pe %45
+	de --
+	pre -- ca -- _ _ _
+	_ _ _ ti --
+	o -- nem no --
+	stram. %50
+	Ad dex -- te -- ram Pa -- _
+	_ _ _ _ _
+	tris, ad dex -- te -- ram
+	Pa -- tris:
+	Mi -- se -- re -- re, %55
+	mi -- se -- re -- re
+	no -- _ _
+	bis.
+	Quo -- ni -- am __
+	
+	tu %65
+	so -- lus al -- tis -- _ _ _
+	_ si -- mus
+	Je -- su Chri --
+	ste, Je -- su
+	Chri -- ste. %70
+	
+	In glo -- ri -- a De -- i %74
+	Pa -- tris, cum %75
+	San -- cto Spi -- ri --
+	tu in glo -- ri --
+	a De -- i Pa -- tris,
+	a -- men.
+	
+	Cum %82
+	San -- cto Spi -- ri --
+	[tu] in
+	glo -- ri -- a De -- i Pa -- tris, %85
+	a -- men,
+	a -- _ _ _
+	_ _ _ _ _ men,
+	
+	a -- %90
+	_ _ _ _
+	_ men,
+	a -- men,
+	a -- men,
+	a -- men, %95
+	a --
+	men. %97 FINIS
 }
 
 % BassoNotes = {
