@@ -672,12 +672,72 @@ SanctusTenoreNotes = {
 		\clef "treble_8"
 		\key g \dorian \time 2/1 \autoBeamOff
 			\set Staff.timeSignatureFraction = 2/2
-		
+		d\breve
+		b1 d
+		r4 b a b g2. a4
+		b a b c d2. c8[ b]
+		a2. g4 d'2. c4 %5
+		b c d b g1
+		a\breve\fermata
+		r1 d2. d4
+		d1 b2. c4
+		d2 es d c %10
+		d d1 d4 b
+		c2 b b2. b4
+		c1 d2 d4 d
+		d2 d r a
+		g1 a2 g~ %15
+		g4 c c2 b4 a8[ g] a2
+		b r r g
+		b1. a2
+		\time 1/1 g4( a) h2
+		\time 2/1 c4 d es2 b4 c d2~ %20
+		d4 c8[ b] c2 b4( c) d2
+		es2.( d4) c1
+		R\breve
+		r1 r2 g
+		b1 a4( g) a( h) %25
+		c1 b2 d
+		c1 c2 c
+		f,4 g8[ a] b2 c a
+		g2. h4 c g c2
+		g es' d d %30
+		\time 3/1 d1 d\breve\fermata \bar "|." %31 FINIS
 	}
 }
 
 SanctusTenoreLyrics = \lyricmode {
+	San --
+	_ ctus,
+	san -- _ _ _ ctus,
+	san -- _ _ _ _ _
+	_ _ _ _ %5
+	_ _ _ _ _
+	ctus,
+	san -- ctus,
+	san -- _ _
+	_ _ _ _ %10
+	ctus Do -- mi -- nus
+	[De -- us Sa -- ba --
+	oth.] Ple -- [ni sunt
+	coe -- li] et
+	ter -- ra glo -- %15
+	ri -- a tu -- _ _
+	a. O --
+	san -- na
+	in __ ex --
+	cel -- _ _ _ _ _ %20
+	_ sis, in __ ex --
+	cel -- sis
 	
+	o --
+	san -- na __ in __ %25
+	ex -- cel -- _
+	_ sis, o --
+	san -- _ _ _ na
+	in ex -- cel -- _ _
+	_ _ sis, ex -- %30
+	cel -- sis. %31 FINIS
 }
 
 % TenoreNotes = {
