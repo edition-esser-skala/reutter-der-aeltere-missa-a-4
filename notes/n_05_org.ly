@@ -766,7 +766,7 @@ SanctusOrgano = {
 		d \clef bass d,
 		es d2 es~ %15
 		es d4 c d1
-		g, \clef "treble_8" << { d''2 es } \\ { r2 g, } >>
+		g,2 \clef "treble_8" << { d''2 es1 } \\ { r2 r g, } >>
 		b1. a2
 		\time 1/1 g4 a h2
 		\time 2/1 c4 d es c b c \clef bass d,2 %20
@@ -789,8 +789,8 @@ SanctusBassFigures = \figuremode {
 	<\t \t>
 	r1. <[6]>2
 	r1 <6>
-	<5 _+> <[6]> %5
-	r <7>2 <6>
+	<5 _+> <[6]>4 <[7 _+]> r2 %5
+	<[6]>1 <7>2 <6>
 	<_+>\breve
 	r
 	<6>2 <5> r1
@@ -800,11 +800,11 @@ SanctusBassFigures = \figuremode {
 	r1 <5 _+>
 	<\t \t> <_+>
 	<7>2 <6> <_+> <5> %15
-	<6>1 <5 4>2 <\t _+>
+	<6>2. <[_-]>4 <5 4>2 <\t _+>
 	r\breve
 	<4->2 <3> <6>1
-	<6\\>2 <5>
-	<_-> <[6]> r <6> %20
+	<8>2 <[6]>4 <5>
+	<_->2 <[6]> r <6> %20
 	<5> <6> <5> <6>
 	<_->1 <6>
 	<_->2 <5>2. <\t>

@@ -686,12 +686,72 @@ SanctusAltoNotes = {
 		\clef treble
 		\key g \dorian \time 2/1 \autoBeamOff
 			\set Staff.timeSignatureFraction = 2/2
-		
+		r1 r2 g'~
+		g\breve~
+		g1. d2
+		R\breve
+		fis2. g4 a fis g2 %5
+		d1~ d4 c8[ b] c2
+		d\breve\fermata
+		r1 g2. g4
+		a g8[ a] f4 g8[ a] d,2 g
+		f g f1 %10
+		f2 r f f4 f
+		f2 f f e
+		f1 fis2 fis4 fis
+		fis?2 fis r d
+		d4( c8[ b] c2) d b( %15
+		c) d4 es d1
+		d2 d es1~
+		es2 d g1~
+		\time 1/1 g2. f4
+		\time 2/1 es1 d4 es f2 %20
+		R\breve
+		r1 g
+		g2 f f g
+		g( a) f r
+		r d \once \tieDashed f1~ %25
+		f4 es8[ d] es2 d f~
+		f2. c4 f2 g4( f8[ es?])
+		f2 d4 g d2. es8[ f]
+		g2 g g1
+		g fis2 g~ %30
+		\time 3/1 g4 fis8[ e] fis2 g\breve\fermata \bar "|." %31 FINIS
 	}
 }
 
 SanctusAltoLyrics = \lyricmode {
+	San --
 	
+	ctus,
+	
+	san -- _ _ _ _ %5
+	_ _ _
+	ctus,
+	san -- ctus,
+	san -- _ _ _ _ _
+	_ _ _ %10
+	ctus Do -- mi -- nus
+	[De -- us Sa -- ba --
+	oth.] Ple -- [ni sunt
+	coe -- li] et
+	ter -- ra glo -- %15
+	ri -- a tu --
+	a. O -- san --
+	na in __
+	ex --
+	cel -- _ _ sis, %20
+	
+	o --
+	san -- na in ex --
+	cel -- sis,
+	o -- san -- %25
+	_ _ _ _
+	na in ex --
+	cel -- _ _ _ _
+	_ sis, in
+	ex -- cel -- _ %30
+	_ _ sis. %31 FINIS
 }
 
 % AltoNotes = {
