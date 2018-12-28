@@ -660,12 +660,71 @@ SanctusSopranoNotes = {
 		\clef treble
 		\key g \dorian \time 2/1 \autoBeamOff
 			\set Staff.timeSignatureFraction = 2/2
-		
+		r1 r4 b' a b
+		g2. a4 b a b c
+		d2 c4 d b2 g
+		R\breve
+		r2 d'2. c4 b a %5
+		\once \tieDashed g1~ g2 a4 g
+		fis\breve\fermata
+		d'2. d4 b a8[ b] g4 b8[ c]
+		d\breve
+		b1~ b4 a8[ g] a2 %10
+		b r d d4 d
+		c2 d b2. b4
+		a1 a2 a4 a
+		d2 d r fis,
+		g1 fis2 g~ %15
+		g g4 g g fis8[ e] fis2
+		g1 r
+		R\breve
+		R1
+		r2 g b1~ %20
+		b2 g g4( a) b2
+		c4( g c2) c r
+		b4( c) d1 b2
+		c4 c c2 d r
+		R\breve %25
+		r2 g, b1~
+		b2 a4( g) a b c2~
+		c b a4 b8[ c] d2~
+		d4 g, c d es2. d4
+		c g c2. b8[ a] b2 %30
+		\time 3/1 a1 h\breve\fermata \bar "|." %31 FINIS
 	}
 }
 
 SanctusSopranoLyrics = \lyricmode {
+	San -- _ _
+	_ _ _ _ _ _
+	_ _ _ _ ctus,
 	
+	san -- _ _ _ %5
+	_ _ _
+	ctus,
+	san -- ctus, san -- _ _ _
+	_
+	_ _ _ %10
+	ctus Do -- mi -- nus
+	De -- us Sa -- ba --
+	oth. Ple -- ni sunt
+	coe -- li et
+	ter -- ra glo -- %15
+	ri -- a tu -- _ _
+	a.
+	
+	O -- san -- %20
+	na in __ ex --
+	cel -- sis,
+	o -- san -- na
+	in ex -- cel -- sis,
+	%25
+	o -- san --
+	na __ in ex -- cel --
+	_ _ _ _
+	_ _ _ _ _
+	_ _ _ _ _ %30
+	_ sis. %31 FINIS
 }
 
 % SopranoNotes = {
