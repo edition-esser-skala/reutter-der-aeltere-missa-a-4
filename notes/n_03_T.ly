@@ -359,7 +359,7 @@ CredoTenoreNotes = {
 		d( c) d r
 		b1 c
 		d1. c4 b
-		c2 d c1 %10
+		c2 d b1 %10
 		r d~
 		d2 d d d
 		d2. cis4 d2 r
