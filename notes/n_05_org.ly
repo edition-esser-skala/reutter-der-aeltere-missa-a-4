@@ -751,11 +751,71 @@ SanctusOrgano = {
 		\key g \dorian \time 2/1
 			\set Staff.timeSignatureFraction = 2/2
 		g'\breve
+		g
+		g4 \clef "treble_8" b a b g \clef bass g, b a
+		g2. a4 b a b c
+		d2. e4 fis d g a %5
+		b a g d es1
+		d\breve\fermata
+		\clef treble d''2. d4 \clef bass g,,2. g4
+		f es8 f d4 es8 f g2. a4
+		b2 es, f1 %10
+		b,2 b'1 b2
+		a b g1
+		f \clef "treble_8" d'
+		d \clef bass d,
+		es d2 es~ %15
+		es d4 c d1
+		g, \clef "treble_8" << { d''2 es } \\ { r2 g, } >>
+		b1. a2
+		\time 1/1 g4 a h2
+		\time 2/1 c4 d es c b c \clef bass d,2 %20
+		es1. d2
+		c2. d4 es2. f4
+		g a b2. a4 g f
+		es c f2 b \clef "treble_8" g
+		b1 a4 g a h %25
+		c1 b2 \clef bass d,
+		f1. e4 d8 c
+		d4 e8 f g1 f4 es8 d
+		es2. d4 c2 es~
+		es d4 c d1 %30
+		\time 3/1 d g,\breve\fermata \bar "|." %31 FINIS
 	}
 }
 
 SanctusBassFigures = \figuremode {
-	
+	<5 3>\breve
+	<\t \t>
+	r
+	r1 <6>
+	<5 _+> <[6]> %5
+	r <7>2 <6>
+	<_+>\breve
+	r
+	<6>2 <5> r1
+	r <6 4>2 <5 3> %10
+	r\breve
+	<6>1 <7>2 <6>
+	r1 <5 _+>
+	<\t \t> <_+>
+	<7>2 <6> <_+> <5> %15
+	<6>1 <5 4>2 <\t _+>
+	r\breve
+	<4->2 <3> <6>1
+	<6\\>2 <5>
+	<_-> <[6]> r <6> %20
+	<5> <6> <5> <6>
+	<_->1 <6>
+	<_!>2 <5>2. <\t>
+	<6>2 <_!> r1
+	r <6>2. <\t>4 %25
+	<4>2 <_-> <5>1
+	<5 4>2 <\t 3> r <6>
+	<7> <3> <2> <6>
+	<7> <6> <_->1
+	r2 <6> <7 _+> <6 4> %30
+	<4> <_+> <_!>\breve %31 finis
 }
 
 % Organo = {
