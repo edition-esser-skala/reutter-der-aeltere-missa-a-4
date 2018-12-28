@@ -352,12 +352,319 @@ CredoTenoreNotes = {
 		\clef "treble_8"
 		\key g \dorian \time 2/1 \autoBeamOff
 			\set Staff.timeSignatureFraction = 2/2
-		
+		R\breve*3
+		r2 d c es
+		d1 d2 b %5
+		c1 b2 c
+		d( c) d r
+		b1 c
+		d1. c4 b
+		c2 d c1 %10
+		r d~
+		d2 d d d
+		d2. cis4 d2 r
+		r1 a2 d
+		c a b b4 b %15
+		c2 c d d
+		c c4 c d d g, g
+		d2 d g1
+		es'2.b4 b2 b
+		b( c) d1 %20
+		R\breve*3
+		r2 d g, a
+		b1. a4 g %25
+		a h c1 h2
+		c r r1
+		r2 d d c
+		a d1 c2
+		d1 g,2 c %30
+		a1 b2( a)
+		g2. g4 f1
+		r2 c'1 a2
+		b b4 b b2 c4( b)
+		b2( a) b1 %35
+		R\breve*2
+		\time 1/1 b2 a
+		\time 2/1 g2. a4 b2 g
+		es1 d %40
+		r r2 c'
+		a a b1
+		b4 c d2 c2. c4
+		d1 r2 g,
+		b1 a2 g4( a) %45
+		b2. b4 a2 fis
+		g d' d1
+		g,2 c d b
+		c1 f,
+		b c2. b8[ a] %50
+		b2. a8[ b] c2 a
+		b g a1
+		\time 1/1 b2 b
+		\time 2/1 a b4 c d2 a
+		h\breve\fermata %55
+		\tempoEtIncarnatus d1 d2 d
+		es1. es2
+		d1. h2
+		c2. c4 h1
+		c h %60
+		\time 3/1 \set Staff.timeSignatureFraction = 3/4 \tempoExMaria
+			r1 b b
+		f\breve f1
+		r c' c
+		c\breve c1
+		f,\breve f1 %65
+		g\breve c1
+		f,\breve des'1
+		c\breve c1
+		c\breve c1
+		d!\breve c1( %70
+		es) d1. d2
+		es\breve.
+		\time 2/1 \set Staff.timeSignatureFraction = 2/2
+			R\breve*3 %75
+		g,2. g4 g2 c,
+		c'2. c4 es2 b
+		b1~ b4 d8[ c] b4 a
+		g1 r
+		r2 d' b4 a b g %80
+		a1 b2 b
+		a4 a a b g2( c)
+		d1 d2 b
+		b2. b4 a2 a
+		r1 a2. a4 %85
+		b2 a b4 a g a
+		b a8[ g] a4 a h\breve*1/2
+		\time 3/1 \set Staff.timeSignatureFraction = 3/4
+			R\breve.*3 %90
+		g1 b g
+		d'\breve d1
+		g,1.( a2) b( c)
+		d\breve d1
+		g,1. g2 g1 %95
+		f f d'
+		d\breve d1
+		b b( g)
+		a a b
+		c a d %100
+		es c c
+		d\breve d1
+		R\breve.
+		r1 r c
+		f,1. f2 g1 %105
+		a b1. b2
+		a\breve.
+		R
+		a\breve a1
+		f\breve b1 %110
+		c c1. c2
+		d1 r r
+		R\breve.
+		r1 d c
+		b b r %115
+		R\breve.
+		b1 b c
+		b( a\breve)
+		h\breve.
+		\time 2/1 \set Staff.timeSignatureFraction = 2/2
+			g2 a b a4 g %120
+		a2 h c4 g c2~
+		c h c2. c4
+		g2 r r1
+		f2 b g c~
+		c4 c h2( c2.) c4 %125
+		d2 c4 c f,2 b
+		f1 b
+		r r2 f
+		g c b es
+		d4 d d d c2. c4 %130
+		b2 c1 es2
+		d4 a b c d1
+		d2 r r4 g, a b!
+		c2. c4 h( g) a( h)
+		c2 h4( a) g2 r %135
+		r d' c2. d4
+		h1 c2( d)
+		es es es( d)
+		es? r r1
+		r2 c1 b!2 %140
+		as g f e
+		as as g1
+		a r
+		R\breve
+		r1 d2 d %145
+		b! g b b
+		a b g4( a) b2
+		a1 b
+		R\breve
+		r1 r2 d %150
+		b a4 g es'2 es
+		b c4 c c2 b4 c
+		b1 c4 b as2
+		b c1 b4 g
+		a!1 b %155
+		g4 a b g d'2 d
+		d1 c
+		c4 b a c b2 b
+		b2. c4 a2 b4 a8[ g]
+		a4 b8[ c] d4 c h1 %160
+		c2 g g2. a4
+		h\longa*1/2\fermata \bar "|." %162 finis
 	}
 }
 
 CredoTenoreLyrics = \lyricmode {
+	Fa -- cto -- rem %4
+	coe -- li et %5
+	ter -- rae, et
+	ter -- rae,
+	vi -- si --
+	bi -- li -- um
+	o -- mni -- um %10
+	et __
+	in -- vi -- si --
+	bi -- li -- um.
+	Et in
+	u -- num Do -- mi -- num %15
+	Je -- sum Chri -- stum,
+	Fi -- li -- um De -- i u -- ni --
+	ge -- ni -- tum,
+	et ex Pa -- tre
+	na -- tum. %20
 	
+	De -- um de %24
+	De -- _ _ %25
+	_ _ _ _
+	o,
+	De -- um de
+	De -- _ _
+	_ o, lu -- %30
+	men de __
+	lu -- mi -- ne
+	De -- um
+	ve -- rum de De -- o __
+	ve -- ro, %35
+	
+	con -- sub -- %38
+	stan -- ti -- a -- lem
+	Pa -- tri: %40
+	Per
+	quem, per quem
+	o -- mni -- a fa -- cta
+	sunt. Qui
+	pro -- pter nos __ %45
+	ho -- mi -- nes et
+	pro -- pter no --
+	stram sa -- lu -- _
+	_ tem
+	de -- scen -- _ %50
+	_ _ _ _
+	_ _ _
+	dit de
+	coe -- _ _ _ _
+	lis. %55
+	Et in -- car --
+	[na -- tus
+	est] de
+	Spi -- [ri -- tu
+	San -- cto] %60
+	ex Ma --
+	ri -- a,
+	ex Ma --
+	ri -- a
+	Vir -- gi -- %65
+	ne, et
+	ho -- mo
+	fa -- ctus
+	est, et
+	ho -- mo __ %70
+	fa -- ctus
+	est.
+	
+	Cru -- ci -- fi -- xus %76
+	e -- ti -- am pro
+	no -- _ _ _
+	bis,
+	sub Pon -- ti -- o Pi -- %80
+	la -- to, sub
+	Pon -- ti -- o Pi -- la --
+	to pas -- sus
+	et se -- pul -- tus,
+	pas -- sus %85
+	et se -- pul -- _ _ _
+	_ _ _ tus est.
+	
+	Et re -- sur -- %91
+	re -- xit,
+	re -- sur --
+	re -- xit
+	ter -- ti -- a %95
+	di -- e se --
+	cun -- dum
+	Scri -- ptu --
+	ras. Et a --
+	scen -- dit, a -- %100
+	scen -- dit in
+	coe -- lum.
+	
+	Et
+	i -- te -- rum %105
+	ven -- tu -- rus
+	est
+	
+	vi -- vos,
+	vi -- vos %110
+	et mor -- tu --
+	os:
+	
+	Cu -- ius
+	re -- gni %115
+	
+	non e -- rit
+	fi --
+	nis.
+	Et in Spi -- ri -- tum %120
+	San -- ctum, Do -- _ _
+	_ _ mi --
+	num.
+	Qui cum Pa -- tre __
+	et Fi -- li -- %125
+	o si -- mul ad -- o --
+	ra -- tur
+	et
+	con -- glo -- ri -- fi --
+	ca -- tur: Qui lo -- cu -- tus
+	est per pro --
+	phe -- _ _ _ _
+	tas. Et a -- po --
+	sto -- li -- cam __ ec --
+	cle -- si -- am. %135
+	Con -- fi -- te --
+	or u --
+	num ba -- pti --
+	sma
+	in re -- %140
+	mis -- si -- o -- nem
+	pec -- ca -- to --
+	rum.
+	
+	Mor -- tu -- %145
+	o -- rum, mor -- tu --
+	o -- rum, mor -- tu --
+	o -- rum,
+	
+	et %150
+	vi -- tam ven -- tu -- ri
+	sae -- cu -- li, sae -- cu -- li
+	a -- _ _ _
+	men, a -- _ _
+	_ men, %155
+	a -- _ _ _ _ men,
+	a -- men,
+	a -- _ _ _ _ men,
+	a -- _ _ _ _
+	_ _ _ _ men, %160
+	a -- men, a -- _
+	men. %162 FINIS
 }
 
 % TenoreNotes = {

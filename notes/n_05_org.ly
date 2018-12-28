@@ -421,8 +421,8 @@ CredoOrgano = {
 		d es4 f g2 es
 		f1 b, %35
 		b'2. b4 a2 g
-		f1 \clef "treble_8" d'
-		\time 1/1 b2 a
+		f1 \clef treble d'
+		\time 1/1 \clef "treble_8" b2 a
 		\time 2/1 g2. a4 b2 g
 		es1 d2 \clef treble d'' %40
 		<< { b b c2 } \\ { r2 g es? } >> \clef "treble_8" c
@@ -493,8 +493,8 @@ CredoOrgano = {
 		\clef bass d f d
 		es1. f2 g a
 		b\breve b1
-		g\breve. %95
-		f\breve d1
+		\clef "treble_8" g\breve. %95
+		f\breve \clef bass d1
 		g\breve d1
 		g es\breve
 		d d1
@@ -530,7 +530,7 @@ CredoOrgano = {
 		\clef bass g2. f4 es2 d4 c
 		b1 es2 c
 		f g as1 %125
-		g2 \clef "treble_8" c f, b
+		g2 \clef "treble_8" c f, b!
 		f1 b2 \clef bass b,
 		c es d << {
 			f
@@ -560,7 +560,7 @@ CredoOrgano = {
 			g2 d
 			e4 fis g2
 		} >> \clef "treble_8" d2 d %145
-		b g \clef bass g g
+		b! g \clef bass g g
 		f d es4 f g2~
 		g4 fis8 e fis2 g1
 		\clef treble c4 d es c g'2. f4
@@ -587,10 +587,10 @@ CredoBassFigures = \figuremode {
 	r2 <5 3> <5> <6>
 	<5 3>1 <6>2 <5> %5
 	<6>1. q2
-	<5 4> <\t 3> r1
+	<[6] 4> <[5] 3> r1
 	<5>2 <6> <5> <6>
 	<5>1 <6 3>2. \bassFigureExtendersOn q4 \bassFigureExtendersOff
-	<6 [_-]>2 <[7-]> <5>1 %10
+	<6 [_-]>2 <6> <5>1 %10
 	<6>2 <\t> <5 3> <\t \t>
 	<6>1. <[6]>2
 	<4>2. <_+>4 <_+>2 <1>
@@ -609,7 +609,7 @@ CredoBassFigures = \figuremode {
 	<6> <_-> <4 2> <6>
 	<8>1 <5>2 <6>
 	q r <6> <\t>
-	r1 <4!>2 <6>
+	<[5]> <[6]> <4!> <6>
 	<7> <6!> <[_-]>1 %30
 	<6>1. q2
 	<7>2. <6>4 r1
@@ -622,8 +622,8 @@ CredoBassFigures = \figuremode {
 	r1 <[6]>
 	<7>2 <6> <_+> <1> %40
 	q q q <[_-]>
-	<6>\breve
-	r1 <7>2. <6\\>4
+	<6>1 <[6]>
+	r <7>2. <6\\>4
 	r1 <6->
 	r <6>2 <6-> %45
 	<5>1 <6\\>2 <[6]>
@@ -672,15 +672,15 @@ CredoBassFigures = \figuremode {
 	r
 	r %90
 	<5 3>1 <\t \t> r
-	<5 3>\breve.
-	<5>
+	<5 3>1. <[3]>2 q q
+	<5>\breve.
 	r
 	<7>\breve <6>1 %95
 	r\breve <_+>1
 	r\breve <5 _+>1
 	r <7> <6>
-	<_+>\breve.
-	<6>1 <5> <6> %100
+	<_+>\breve <[6]>1
+	<6> <5> <6> %100
 	<6-> <\t> r
 	<5 3>\breve.
 	<6>\breve <3>1
@@ -691,17 +691,17 @@ CredoBassFigures = \figuremode {
 	<9>1 <8>\breve
 	<6 4>1 <\l [3]> <5->
 	r\breve. %110
-	r1 <4>1. <3>2
+	<[6 5]>1 <4>1. <3>2
 	r\breve.
 	r
 	r\breve <[6 _-]>1
 	<[6]>\breve <[6\\]>1 %115
 	<6 3> \bassFigureExtendersOn q q
-	<5> q q \bassFigureExtendersOff
-	r <4> <_+>
-	r\breve.
-	r\breve %120
-	r1. <5 _->2
+	<5> q \bassFigureExtendersOff <[10- 8]>
+	<[9 7]> <4> <_+>
+	<[_!]>\breve.
+	r1 <[3]>2 <[7]>4 <[\t]> %120
+	<[6]>2 <[3]> <[_-]> <5 _->
 	<[5] 2> <6> <9 _-> <8>
 	<_-> <[6-]> r <[\t]>4 <[6 _-]>
 	<[4-]>2 <[3]>1 <_->2
@@ -715,9 +715,9 @@ CredoBassFigures = \figuremode {
 	<7 _+> <6 4> <5 4> <\t _+>
 	<_!>1. <6>4 <\t>
 	<_->1 <[6]>4 <[_!]>2.
-	<[_-]>2 <[6]> <_!>1 %135
-	<5 3>1 <_->
-	<_!> <3>2 <4 [3]>
+	<[_-]>2 <[6]> <_!> <1> %135
+	q <5 3> <[5] _->2. <[6]>4
+	<_!>1 <3>2 <4 [3]>
 	<6>1 <7>2 <6>
 	r1 <6>2 <5>
 	<_->1 <8 _!>2 <7> %140
@@ -740,7 +740,7 @@ CredoBassFigures = \figuremode {
 	r1 <_->2 <6>
 	r1 <5>
 	<5>2. <[6 _-]>4 <5 _+>2 <6 4>
-	<5 4> <\t _+> r1 %160
+	<5 4> <\t _+> <[_!]>1 %160
 	<_->2 <6> <[_-]>1
 	<5 _!>\breve %162 FINIS
 }

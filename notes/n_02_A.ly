@@ -557,7 +557,7 @@ CredoAltoLyrics = \lyricmode {
 	con -- sub -- stan -- ti --
 	a -- lem
 	Pa --
-	_ tri %40
+	_ tri: %40
 	Per quem, per
 	quem o --
 	mni -- a fa -- cta
@@ -574,14 +574,14 @@ CredoAltoLyrics = \lyricmode {
 	coe --
 	lis. %55
 	Et in -- car --
-	na -- [tus
+	[na -- tus
 	est] de
 	Spi -- [ri -- tu
 	San -- cto] %60
 	ex Ma --
 	ri -- a,
-	[ex Ma --
-	ri -- a]
+	ex Ma --
+	ri -- a
 	Vir -- gi -- %65
 	ne, et
 	ho -- mo
@@ -676,9 +676,9 @@ CredoAltoLyrics = \lyricmode {
 	_ men, a -- _ _ _
 	_ men, a -- _ _ _
 	_ men, a -- men,
-	a -- men,
+	a -- men, %160
 	a -- men, a --
-	men.
+	men. %162 FINIS
 }
 
 % AltoNotes = {
