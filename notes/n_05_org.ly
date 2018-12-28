@@ -667,7 +667,7 @@ CredoBassFigures = \figuremode {
 	<6 5>
 	r1 <_+> %85
 	<6 4>2 <5 _+> <6 4>1
-	<5 4>2 <\l _+> r1
+	<[6] 4>2 <\l _+> r1
 	r\breve.
 	r
 	r %90

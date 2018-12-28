@@ -324,12 +324,289 @@ CredoBassoNotes = {
 		\clef bass
 		\key g \dorian \time 2/1 \autoBeamOff
 			\set Staff.timeSignatureFraction = 2/2
-		
+		R\breve*4
+		r2 g' f b %5
+		a1 b2 es,
+		f1 b,
+		R\breve*2
+		r2 f' g1 %10
+		a2 g4 f b2 a4 g
+		f2. e4 d2 g
+		a2. a4 d,2 d~
+		d g f d
+		es f4 f g2 g
+		c,1 g'
+		R\breve*2
+		es2. es4 d2 b
+		es1 b2 b %20
+		c d( es f)
+		d es as f
+		g1 as2. as4
+		g1 r
+		R\breve*3 %27
+		r2 g d e
+		f1. es2
+		d1 c2 r %30
+		R\breve*2
+		r2 f1 f2
+		d es4 f g2 es
+		f1 b, %35
+		b'2. b4 a2 g
+		f2 f r1
+		\time 1/1 R1
+		\time 2/1 R\breve*3 %41
+		r2 f d g~
+		g4 a b2 a2. a4
+		g1 r
+		R\breve*2 %46
+		r2 g f2 d
+		es1 d2 es
+		c1 b
+		r2 b'1 a2~ %50
+		a g1 f2
+		es1 d2. c4
+		\time 1/1 b2 a4 g
+		\time 2/1 d'\breve
+		g,\fermata %55
+		\tempoEtIncarnatus g'1 g2 g
+		g1. fis2
+		g1. g2
+		g2. g4 g1
+		c, g' %60
+		\time 3/1 \set Staff.timeSignatureFraction = 3/4
+			\newSpacingSection \tempoExMaria
+			r1 es es
+		b\breve b1
+		r1 f' f
+		c\breve c1
+		d\breve d1 %65
+		c\breve c1
+		des\breve b1
+		c\breve c1
+		f\breve as1
+		g\breve c,1~ %70
+		c g'1. g2
+		c,\breve.
+		\time 2/1 \set Staff.timeSignatureFraction = 2/2 \newSpacingSection
+			R\breve*4 %76
+		c2. c4 c2 g
+		g'2. g4 g2 g4( f)
+		es2. f4 g d g2~
+		g4 fis8[ e] fis2 g1 %80
+		r r2 g
+		f4 es f d es( d c f)
+		b,2 b'1 b2
+		es,2. es4 f2 f
+		r1 d2. d4 %85
+		d2 d d1~
+		d2 d g,\breve*1/2
+		\time 3/1 \set Staff.timeSignatureFraction = 3/4 \newSpacingSection
+			R\breve.*4 %91
+		d'1 f d
+		es1. f2 g a
+		b\breve b1
+		R\breve. %95
+		r1 r d,
+		g\breve d1
+		g es\breve
+		d d1
+		es f f %100
+		g a a2 a
+		b\breve b1
+		R\breve.*4 %106
+		r1 cis, cis
+		d\breve d1
+		a\breve a1
+		b\breve b1 %110
+		es1 f1. f2
+		b,1 r r
+		R\breve.*2
+		r1 g' a %115
+		b a g
+		es( d) c~
+		c d\breve
+		g,\breve.
+		\time 2/1 \set Staff.timeSignatureFraction = 2/2 \newSpacingSection
+			R\breve*3 %122
+		r2 g'4 f es2 d4 c
+		b1 es2 c(
+		f) g( as2.) as4 %125
+		g2 r r1
+		r r2 b,
+		c es d d
+		es2. f4 g2 a
+		b b4 b a2. a4 %130
+		g2 es1 c2
+		d\breve
+		g1 r
+		R\breve
+		r1 r2 es %135
+		b'2. b4 f1
+		g as
+		g2( as) f1
+		es h2 h
+		c1 c %140
+		c c
+		c2 c c1
+		f2 f1 es2
+		d2 d r1
+		R\breve %145
+		r1 g2 g
+		f d es4 f g2~
+		g4 fis8[ e] fis2 g1
+		R\breve*2 %150
+		r1 c,4 d es c
+		g'2 as f g4 as
+		as?2 g f1
+		es2 r r1
+		d b2 a4 g %155
+		es'2 es d4( e) fis d
+		g2 g c,4 d es c
+		f2 f b,4 c d b
+		es d es c d1~
+		d g, %160
+		\tempoCredoFinis c2 h c1
+		g\longa*1/2\fermata \bar "|." %162 FINIS
 	}
 }
 
 CredoBassoLyrics = \lyricmode {
+	Fa -- cto -- rem %5
+	coe -- li et
+	ter -- rae,
 	
+	vi -- si -- %10
+	bi -- li -- um o -- mni -- um
+	et in -- vi -- si --
+	bi -- li -- um. Et __
+	in u -- num
+	Do -- mi -- num Je -- sum %15
+	Chri -- stum,
+	
+	et ex Pa -- tre %19
+	na -- tum an -- %20
+	te o --
+	mni -- a fa -- _
+	_ _ cta
+	sunt.
+	
+	De -- um de %28
+	De -- _
+	_ o, %30
+	
+	De -- um %33
+	ve -- rum de De -- o
+	ve -- ro %35
+	ge -- ni -- tum, non
+	fa -- ctum:
+	
+	Per quem o -- %42
+	mni -- a fa -- cta
+	sunt.
+	
+	Et pro -- pter %47
+	no -- stram sa --
+	lu -- tem
+	de -- scen -- %50
+	_ _
+	_ _ _
+	_ dit de
+	coe --
+	lis. %55
+	Et in -- car --
+	na -- tus
+	est de
+	Spi -- ri -- tu
+	San -- cto %60
+	ex Ma --
+	ri -- a,
+	ex Ma --
+	ri -- a
+	Vir -- gi -- %65
+	ne, et
+	ho -- mo
+	fa -- ctus
+	est, et
+	ho -- mo __ %70
+	fa -- ctus
+	est.
+	
+	Cru -- ci -- fi -- xus %77
+	e -- ti -- am pro __
+	no -- _ _ _ _
+	_ _ bis, %80
+	sub
+	Pon -- ti -- o Pi -- la --
+	to pas -- sus
+	et se -- pul -- tus,
+	pas -- sus %85
+	et se -- pul --
+	tus est.
+	
+	Et re -- sur -- %92
+	re -- _ _ _
+	_ xit
+	%95
+	se --
+	cun -- dum
+	Scri -- ptu --
+	ras. Et
+	a -- scen -- dit, %100
+	a --  scen -- dit in
+	coe -- lum.
+	
+	Ju -- di -- %107
+	ca -- re
+	vi -- vos,
+	vi -- vos %110
+	et mor -- tu --
+	os:
+	
+	Cu -- ius %115
+	re -- gni non
+	e -- rit __
+	fi --
+	nis.
+	
+	Fi -- li -- o -- que pro -- %123
+	ce -- dit, et __
+	Fi -- li -- %125
+	o
+	et
+	con -- glo -- ri -- fi --
+	ca -- _ _ _
+	tur: Qui lo -- cu -- tus %130
+	est per pro --
+	phe --
+	tas.
+	
+	Con -- %135
+	fi -- te -- or
+	u -- num
+	ba -- pti --
+	sma in re --
+	mis -- si -- %140
+	o -- nem
+	pec -- ca -- to --
+	rum. Et ex --
+	pe -- cto
+	%145
+	mor -- tu --
+	o -- rum, mor -- tu -- o --
+	_ _ rum,
+	
+	a -- _ _ _ %151
+	_ men, a -- _ _
+	_ _ _
+	men,
+	et vi -- tam ven -- %155
+	tu -- ri sae -- cu -- li,
+	a -- men, a -- _ _ _
+	_ men, a -- _ _ _
+	_ _ _ _ _
+	men, %160
+	a -- men, a --
+	men. %162 FINIS
 }
 
 % BassoNotes = {
