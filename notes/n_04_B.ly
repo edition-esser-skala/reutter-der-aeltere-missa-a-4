@@ -614,12 +614,71 @@ SanctusBassoNotes = {
 		\clef bass
 		\key g \dorian \time 2/1 \autoBeamOff
 			\set Staff.timeSignatureFraction = 2/2
-		
+		r2 g'1 g2
+		g1 g
+		r1 r4 g, b a
+		g2. a4 b a b c
+		d2. e4 fis d g a %5
+		b a g d es1
+		d\breve\fermata
+		r1 g2. g4
+		f es8[ f] d4 es8[ f] g2. a4
+		b2 es, f1 %10
+		b,2 b'1 b4 b
+		a2 b g2. g4
+		f1 r
+		r d
+		es d2 es~ %15
+		es d4 c d1
+		g,2 r r1
+		R\breve
+		\time 1/1 R1
+		r1 r2 d' %20
+		es1. d2
+		c2. d4 es2. f4
+		g a b2. a4 g f
+		es c f2 b1
+		R\breve %25
+		r1 r2 d,
+		f1. e!4 d8[ c]
+		d4 e8[ f] g1 f4 es8[( d])
+		es2. d4 c2 es~
+		es d4 c d1~ %30
+		\time 3/1 d g,\breve\fermata \bar "|." %31 FINIS
 	}
 }
 
 SanctusBassoLyrics = \lyricmode {
+	San -- ctus,
+	san -- ctus,
+	san -- _ _
+	_ _ _ _ _ _
+	_ _ _ _ _ _ %5
+	_ _ _ _ _
+	[ctus,]
+	san -- ctus,
+	san -- _ _ _ _ _
+	_ _ _ %10
+	ctus Do -- mi -- nus
+	De -- us Sa -- ba --
+	oth.
+	Et
+	ter -- ra glo -- %15
+	ri -- a tu --
+	a.
 	
+	O -- %20
+	san -- na
+	in ex --  cel -- _
+	_ _ _ _ _ _
+	_ _ _ sis,
+	%25
+	o --
+	san -- _ _
+	_ _ _ _ na __
+	in ex -- cel -- _
+	_ _ _ %30
+	sis. %31 FINIS
 }
 
 % BassoNotes = {

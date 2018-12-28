@@ -712,7 +712,7 @@ SanctusAltoNotes = {
 		g( a) f r
 		r d \once \tieDashed f1~ %25
 		f4 es8[ d] es2 d f~
-		f2. c4 f2 g4( f8[ es?])
+		f2. c4 f2 g4( f8[ e])
 		f2 d4 g d2. es8[ f]
 		g2 g g1
 		g fis2 g~ %30

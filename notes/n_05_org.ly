@@ -776,7 +776,7 @@ SanctusOrgano = {
 		es c f2 b \clef "treble_8" g
 		b1 a4 g a h %25
 		c1 b2 \clef bass d,
-		f1. e4 d8 c
+		f1. e!4 d8 c
 		d4 e8 f g1 f4 es8 d
 		es2. d4 c2 es~
 		es d4 c d1 %30
