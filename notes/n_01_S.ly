@@ -727,6 +727,19 @@ SanctusSopranoLyrics = \lyricmode {
 	_ sis. %31 FINIS
 }
 
+BenedictusSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \dorian \time 3/1 \autoBeamOff
+			\set Staff.timeSignatureFraction = 3/4
+		
+	}
+}
+
+BenedictusSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

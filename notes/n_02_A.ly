@@ -754,6 +754,19 @@ SanctusAltoLyrics = \lyricmode {
 	_ _ sis. %31 FINIS
 }
 
+BenedictusAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \dorian \time 3/1 \autoBeamOff
+			\set Staff.timeSignatureFraction = 3/4
+		
+	}
+}
+
+BenedictusAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

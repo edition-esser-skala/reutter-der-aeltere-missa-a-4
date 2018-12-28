@@ -681,6 +681,19 @@ SanctusBassoLyrics = \lyricmode {
 	sis. %31 FINIS
 }
 
+BenedictusBassoNotes = {
+	\relative c {
+		\clef bass
+		\key g \dorian \time 3/1 \autoBeamOff
+			\set Staff.timeSignatureFraction = 3/4
+		
+	}
+}
+
+BenedictusBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

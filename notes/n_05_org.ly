@@ -818,6 +818,19 @@ SanctusBassFigures = \figuremode {
 	<4> <_+> <_!>\breve %31 finis
 }
 
+BenedictusOrgano = {
+	\relative c {
+		\clef bass
+		\key g \dorian \time 3/1
+			\set Staff.timeSignatureFraction = 3/4
+		g'\breve.
+	}
+}
+
+BenedictusBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

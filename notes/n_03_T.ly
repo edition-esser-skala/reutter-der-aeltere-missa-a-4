@@ -740,6 +740,19 @@ SanctusTenoreLyrics = \lyricmode {
 	cel -- sis. %31 FINIS
 }
 
+BenedictusTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \dorian \time 3/1 \autoBeamOff
+			\set Staff.timeSignatureFraction = 3/4
+		
+	}
+}
+
+BenedictusTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"
