@@ -681,6 +681,19 @@ CredoAltoLyrics = \lyricmode {
 	men. %162 FINIS
 }
 
+SanctusAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \dorian \time 2/1 \autoBeamOff
+			\set Staff.timeSignatureFraction = 2/2
+		
+	}
+}
+
+SanctusAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

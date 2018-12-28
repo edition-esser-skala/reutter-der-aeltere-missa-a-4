@@ -609,6 +609,19 @@ CredoBassoLyrics = \lyricmode {
 	men. %162 FINIS
 }
 
+SanctusBassoNotes = {
+	\relative c {
+		\clef bass
+		\key g \dorian \time 2/1 \autoBeamOff
+			\set Staff.timeSignatureFraction = 2/2
+		
+	}
+}
+
+SanctusBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

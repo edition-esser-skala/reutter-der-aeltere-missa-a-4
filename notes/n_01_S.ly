@@ -655,6 +655,19 @@ CredoSopranoLyrics = \lyricmode {
 	men. %162 FINIS
 }
 
+SanctusSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \dorian \time 2/1 \autoBeamOff
+			\set Staff.timeSignatureFraction = 2/2
+		
+	}
+}
+
+SanctusSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

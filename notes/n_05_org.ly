@@ -745,6 +745,19 @@ CredoBassFigures = \figuremode {
 	<5 _!>\breve %162 FINIS
 }
 
+SanctusOrgano = {
+	\relative c {
+		\clef bass
+		\key g \dorian \time 2/1
+			\set Staff.timeSignatureFraction = 2/2
+		g'\breve
+	}
+}
+
+SanctusBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
