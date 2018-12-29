@@ -899,11 +899,11 @@ AgnusDeiTenoreLyrics = \lyricmode {
 	re -- re no --
 	bis.
 	
-	Do -- na
+	Do -- na %31
 	no -- bis
 	pa -- _ _ _
 	cem, do -- na
-	no -- bis
+	no -- bis %35
 	pa -- _ _
-	cem.
+	cem. %37 FINIS
 }

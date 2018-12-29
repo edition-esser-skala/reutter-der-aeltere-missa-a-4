@@ -755,10 +755,67 @@ AgnusDeiBassoNotes = {
 		\clef bass
 		\key g \dorian \autoBeamOff \time 2/1
 			\set Staff.timeSignatureFraction = 2/2
-		
+		R\breve*5 %5
+		r2 d1 c2
+		d1 e2 e
+		f e2. fis4 g2~
+		g fis g r
+		r g es1 %10
+		f r2 b,
+		es d c( f)
+		b, b'1 a2
+		b a g c,
+		d1 f %15
+		d es
+		d g,
+		r2 g'1 d2
+		es1 d2 g
+		f d h1~ %20
+		h4 g a h c1
+		r2 g' f d4 d
+		es2 c g1
+		c r
+		r cis2 cis %25
+		d d es1
+		d2^\critnote r r1
+		R\breve*4 %31
+		r2 g1 d2
+		f1 es2 d~
+		d g, c1
+		b es %35
+		d\breve
+		g,\longa*1/2\fermata \bar "|." %37 FINIS
 	}
 }
 
 AgnusDeiBassoLyrics = \lyricmode {
+	A -- gnus %6
+	De -- i, qui
+	tol -- _ _ _
+	_ lis
+	pec -- ca -- %10
+	ta, pec --
+	ca -- ta mun --
+	di: Mi -- se --
+	re -- re, mi -- se --
+	re -- _ %15
+	re no --
+	_ bis.
+	A -- gnus
+	De -- i, qui
+	tol -- _ _ %20
+	_ _ _ lis
+	pec -- ca -- ta, pec --
+	ca -- ta mun --
+	di:
+	Mi -- se -- %25
+	se -- re no --
+	bis.
 	
+	Do -- na %32
+	no -- is pa --
+	[cem,] do --
+	na pa -- %35
+	_
+	cem. %37 FINIS
 }
