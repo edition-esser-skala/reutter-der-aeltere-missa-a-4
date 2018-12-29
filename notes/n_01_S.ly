@@ -732,12 +732,80 @@ BenedictusSopranoNotes = {
 		\clef treble
 		\key g \dorian \time 3/1 \autoBeamOff
 			\set Staff.timeSignatureFraction = 3/4
-		
+		r1 g'\breve~
+		g1 fis\breve
+		b\breve.
+		a
+		R\breve.*5 %9
+		r1 d d %10
+		g, b a
+		g2 fis g a b c
+		d\breve cis1
+		d d b
+		b1. b2 b1~ %15
+		b b1. a2
+		b\breve.
+		R\breve.*2
+		r1 b\breve %20
+		c\breve.
+		d\breve es1~
+		es\breve d1
+		es es es
+		d\breve. %25
+		c
+		b\breve c1
+		b\breve a1
+		b r r
+		R\breve. %30
+		r1 r g
+		a d\breve
+		d1 c\breve
+		c1. c2 b1
+		a a\breve %35
+		h d1
+		es d h
+		c1. c2 h1
+		d es\breve
+		d\breve.\fermata \bar "|." %40 FINIS
 	}
 }
 
 BenedictusSopranoLyrics = \lyricmode {
+	Be --
+	ne --
+	di --
+	ctus,
 	
+	be -- ne -- %10
+	di -- ctus, qui
+	ve -- _ _ _ _ _
+	_ _
+	_ nit in
+	no -- mi -- ne __ %15
+	Do -- mi --
+	ni.
+	
+	O -- %20
+	san --
+	na in __
+	ex --
+	cel -- sis, o --
+	san -- %25
+	na
+	in ex --
+	cel -- _
+	sis,
+	%30
+	o --
+	san -- na
+	in ex --
+	cel -- sis, in
+	ex -- cel -- %35
+	sis, o --
+	san -- na, o --
+	san -- na in
+	ex -- cel --
+	sis. %40 FINIS
 }
 
 % SopranoNotes = {

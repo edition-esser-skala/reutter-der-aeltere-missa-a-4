@@ -879,18 +879,18 @@ BenedictusBassFigures = \figuremode {
 	<4 2>1 <3>\breve %10
 	r\breve.
 	r
-	<_->1 <6> <6\\>
+	<_!>1 <6> <6\\>
 	r\breve.
 	r\breve <6>1 %15
-	r\breve <5 3>1
+	r\breve <5 [4]>2 <\l [3]>
 	r\breve.
 	<2>1 <3> r
 	<7> <5 4> <\l 3>
 	r <6> r %20
-	<6>\breve.
-	r\breve <6->1
-	r\breve.
-	r\breve <_->1
+	<6> <_->\breve
+	r <6->1
+	r1 <5->\breve
+	r <_->1
 	<2> <6 3>\breve %25
 	<2>1 <6 3>\breve
 	<7>1 <6-> <\t>
@@ -901,12 +901,12 @@ BenedictusBassFigures = \figuremode {
 	<2>1 <6>\breve
 	<7>1 <6>\breve
 	<7 _+>\breve.
-	r1 <4> <_+> %35
+	<[6 _-]>1 <4> <_+> %35
 	<_!>\breve q1
 	<[6-] 4> <5 _!>\breve
-	<[6-] 4>1 <5 _!>\breve
-	q1 <6- 4>\breve
-	<5 _!>\breve.
+	<[6-] 4> <5 _!>1
+	q <6- 4>\breve
+	<5 _!>\breve. %40 FINIS
 }
 
 % Organo = {
