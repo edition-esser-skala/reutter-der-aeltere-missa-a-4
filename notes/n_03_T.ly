@@ -829,14 +829,15 @@ BenedictusTenoreLyrics = \lyricmode {
 	sis. %40 FINIS
 }
 
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-% 		
-% 		
-% 	}
-% }
-% 
-% TenoreLyrics = \lyricmode {
-% 	
-% }
+AgnusDeiTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \dorian \autoBeamOff \time 2/1
+			\set Staff.timeSignatureFraction = 2/2
+		
+	}
+}
+
+AgnusDeiTenoreLyrics = \lyricmode {
+	
+}

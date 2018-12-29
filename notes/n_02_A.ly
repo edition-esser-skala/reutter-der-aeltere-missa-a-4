@@ -843,14 +843,15 @@ BenedictusAltoLyrics = \lyricmode {
 	sis. %40 FINIS
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }
-% 
-% AltoLyrics = \lyricmode {
-% 	
-% }
+AgnusDeiAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \dorian \autoBeamOff \time 2/1
+			\set Staff.timeSignatureFraction = 2/2
+		
+	}
+}
+
+AgnusDeiAltoLyrics = \lyricmode {
+	
+}

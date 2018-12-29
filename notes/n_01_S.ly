@@ -808,14 +808,15 @@ BenedictusSopranoLyrics = \lyricmode {
 	sis. %40 FINIS
 }
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }
-% 
-% SopranoLyrics = \lyricmode {
-% 	
-% }
+AgnusDeiSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \dorian \autoBeamOff \time 2/1
+			\set Staff.timeSignatureFraction = 2/2
+		
+	}
+}
+
+AgnusDeiSopranoLyrics = \lyricmode {
+	
+}

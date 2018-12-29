@@ -909,14 +909,15 @@ BenedictusBassFigures = \figuremode {
 	<5 _!>\breve. %40 FINIS
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-% 		
-% 		
-% 	}
-% }
-% 
-% BassFigures = \figuremode {
-% 	
-% }
+AgnusDeiOrgano = {
+	\relative c {
+		\clef "treble_8"
+		\key g \dorian \time 2/1
+			\set Staff.timeSignatureFraction = 2/2
+		g'1. f2
+	}
+}
+
+AgnusDeiBassFigures = \figuremode {
+	
+}

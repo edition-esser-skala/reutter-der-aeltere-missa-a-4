@@ -750,14 +750,15 @@ BenedictusBassoLyrics = \lyricmode {
 	sis. %40 FINIS
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		
-% 		
-% 	}
-% }
-% 
-% BassoLyrics = \lyricmode {
-% 	
-% }
+AgnusDeiBassoNotes = {
+	\relative c {
+		\clef bass
+		\key g \dorian \autoBeamOff \time 2/1
+			\set Staff.timeSignatureFraction = 2/2
+		
+	}
+}
+
+AgnusDeiBassoLyrics = \lyricmode {
+	
+}

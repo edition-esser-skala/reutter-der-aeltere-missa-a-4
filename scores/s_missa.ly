@@ -237,49 +237,94 @@
 % 			\midi { \tempo 1 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "5 BENEDICTUS"
+% 		}
+% 		\score {
+% 			<<
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \BenedictusSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \BenedictusSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \BenedictusAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \BenedictusAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \BenedictusTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \BenedictusTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \BenedictusBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \BenedictusBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\BenedictusOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\BenedictusBassFigures
+% 				}
+% 			>>
+% 			\layout { \context { \Score \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/2) } }
+% 			\midi { \tempo 1 = 180 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "5 BENEDICTUS"
+			movement = "6 AGNUS DEI"
 		}
 		\score {
 			<<
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \BenedictusSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \AgnusDeiSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \BenedictusSopranoLyrics
+					\new Lyrics \lyricsto Soprano \AgnusDeiSopranoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \BenedictusAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \AgnusDeiAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \BenedictusAltoLyrics
+					\new Lyrics \lyricsto Alto \AgnusDeiAltoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \BenedictusTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \AgnusDeiTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \BenedictusTenoreLyrics
+					\new Lyrics \lyricsto Tenore \AgnusDeiTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \BenedictusBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \AgnusDeiBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \BenedictusBassoLyrics
+					\new Lyrics \lyricsto Basso \AgnusDeiBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\BenedictusOrgano
+						\AgnusDeiOrgano
 					}
 				>>
 				\new FiguredBass {
-					\BenedictusBassFigures
+					\AgnusDeiBassFigures
 				}
 			>>
-			\layout { \context { \Score \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/2) } }
-			\midi { \tempo 1 = 180 }
+			\layout { }
+			\midi { \tempo 1 = 60 }
 		}
 	}
 }
