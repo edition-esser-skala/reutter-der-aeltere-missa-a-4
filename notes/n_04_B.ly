@@ -724,7 +724,7 @@ BenedictusBassoLyrics = \lyricmode {
 	di --
 	ctus,
 	
-	be -- ne --
+	be -- ne -- %12
 	di -- ctus, qui
 	ve -- nit in
 	no -- mi -- ne __ %15
@@ -732,7 +732,7 @@ BenedictusBassoLyrics = \lyricmode {
 	ni. O --
 	san -- na
 	in ex --
-	cel -- sis, o --
+	cel -- sis, o -- %20
 	san -- na, o --
 	san -- na in
 	ex -- cel --

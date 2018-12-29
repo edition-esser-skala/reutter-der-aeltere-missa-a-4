@@ -278,7 +278,7 @@
 					\BenedictusBassFigures
 				}
 			>>
-			\layout { }
+			\layout { \context { \Score \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/2) } }
 			\midi { \tempo 1 = 180 }
 		}
 	}
