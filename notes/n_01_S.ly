@@ -783,7 +783,7 @@ BenedictusSopranoLyrics = \lyricmode {
 	_ nit in
 	no -- mi -- ne __ %15
 	Do -- mi --
-	ni.
+	[ni.]
 	
 	O -- %20
 	san --

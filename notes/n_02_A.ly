@@ -759,12 +759,88 @@ BenedictusAltoNotes = {
 		\clef treble
 		\key g \dorian \time 3/1 \autoBeamOff
 			\set Staff.timeSignatureFraction = 3/4
-		
+		d\breve.
+		d
+		d\breve e1
+		fis\breve.
+		R\breve.*2 %6
+		r1 g g
+		d f e
+		d1. c2 b1
+		a\breve. %10
+		g1 b( a)
+		b2 a b c d e
+		f1 a g
+		f f g
+		g1. g2 f1 %15
+		g\breve f1
+		f\breve r1
+		r f\breve
+		f e1
+		f\breve g1 %20
+		g\breve f1
+		f\breve g1~
+		g f\breve
+		g g1
+		f\breve g1 %25
+		es\breve f1~
+		f es es
+		d d( c)
+		d r d
+		c f\breve %30
+		d1 r d
+		c d( f)
+		g g\breve
+		fis1. fis2 g1
+		g g( fis) %35
+		g\breve g1
+		g g g
+		g1. g2 g1
+		g g\breve
+		g\breve.\fermata \bar "|." %40 FINIS
 	}
 }
 
 BenedictusAltoLyrics = \lyricmode {
+	Be --
+	[ne --
+	di -- _
+	ctus,]
 	
+	be -- ne -- %7
+	di -- ctus, qui
+	ve -- _ _
+	_ %10
+	nit, qui __
+	ve -- _ _ _ _ _
+	_ _ _
+	_ nit in
+	no -- mi -- ne %15
+	Do -- mi --
+	ni.
+	O --
+	san -- na
+	in ex -- %20
+	cel -- _
+	sis, in __
+	ex --
+	cel -- sis,
+	o -- _ %25
+	san -- _
+	na in
+	ex -- cel --
+	sis, o --
+	san -- _ %30
+	na, o --
+	san -- na __
+	in ex --
+	cel -- sis, in
+	ex -- cel -- %35
+	sis, o --
+	san -- na, o --
+	san -- na in
+	ex -- cel --
+	sis. %40 FINIS
 }
 
 % AltoNotes = {
