@@ -848,10 +848,79 @@ AgnusDeiAltoNotes = {
 		\clef treble
 		\key g \dorian \autoBeamOff \time 2/1
 			\set Staff.timeSignatureFraction = 2/2
-		
+		R\breve
+		r2 d1 c2
+		d1 e2 e
+		f( d) c1
+		d2( b) c( d) %5
+		d d4( e) f2 e
+		f e4 d \once\tieDashed c1~
+		c2 \once \tieDashed g'~ g4 a d,2
+		c d b r
+		R\breve %10
+		r2 f' d1
+		es2( f) es( f)
+		f r r1
+		r2 f1 e2
+		f f f f %15
+		f d d( c)
+		d\breve
+		R\breve*2
+		r1 r2 g~ %20
+		g d es1
+		d2 d f f4 f
+		es2 es es4( d8[ c] d2)
+		es1 d2. d4
+		d2 d e2. e4 %25
+		d2 d d( c)
+		d r r1
+		r r2 g~
+		g d f1
+		es d2 g~ %30
+		g fis1 a2~
+		a4 e g1 f2
+		a1 g2( f)
+		f1 es
+		d1. c2 %35
+		d\breve
+		d\longa*1/2\fermata \bar "|." %37 FINIS
 	}
 }
 
 AgnusDeiAltoLyrics = \lyricmode {
+	A -- gnus %2
+	De -- i, qui
+	tol -- lis,
+	qui __ tol -- %5
+	lis, qui __ tol -- _
+	_ _ _ _
+	_ _ _
+	_ _ lis
+	%10
+	pec -- ca --
+	ta __ mun --
+	di:
+	Mi -- se --
+	re -- re, mi -- se -- %15
+	re -- re no --
+	bis.
 	
+	A -- %20
+	gnus De --
+	i, qui tol -- lis pec --
+	ca -- ta mun --
+	di: Mi -- se --
+	re -- re, mi -- se -- %25
+	re -- re no --
+	bis.
+	Do --
+	na no --
+	bis pa -- _ %30
+	cem, pa --
+	_ _ cem,
+	do -- na __
+	no -- bis
+	pa -- cem, %35
+	pa --
+	cem. %37 FINIS
 }

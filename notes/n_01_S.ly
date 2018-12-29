@@ -813,10 +813,73 @@ AgnusDeiSopranoNotes = {
 		\clef treble
 		\key g \dorian \autoBeamOff \time 2/1
 			\set Staff.timeSignatureFraction = 2/2
-		
+		R\breve*3
+		r2 g'1 f2
+		g1 a2 a %5
+		b1 a2 a
+		b1. a4 g
+		a b c1 b2
+		a1 g2 r
+		r1 r2 c %10
+		a a r b
+		g4 a b1( a2)
+		b1 r
+		R\breve
+		r2 b1 a2 %15
+		b a \once \tieDashed g1~
+		g2 fis g1
+		R\breve*3 %20
+		r1 r2 c
+		b1 a2 h(
+		c4 g) c1( h2)
+		c1 c2. c4
+		c2 b a2. g4 %25
+		fis2 fis g1
+		fis2 d'1 a2
+		c1 b
+		a1. b2
+		c4 g c2. b8[ a] b2 %30
+		a1 r
+		r r2 d~
+		d d c1~
+		c2 b1 a2~
+		a g g g %35
+		fis g1 fis2
+		g\longa*1/2\fermata \bar "|." %37 FINIS
 	}
 }
 
 AgnusDeiSopranoLyrics = \lyricmode {
+	A -- gnus %4
+	De -- i, qui %5
+	tol -- lis, qui
+	tol -- _ _
+	_ _ _ _
+	_ lis
+	pec -- %10
+	ca -- ta, pec --
+	ca -- ta mun --
+	di:
 	
+	Mi -- se -- %15
+	re -- re no --
+	_ bis.
+	
+	Qui %21
+	tol -- lis pec --
+	ca --
+	ta: Mi -- se --
+	re -- re, mi -- se -- %25
+	re -- re no --
+	bis. Do -- na
+	no -- bis
+	pa -- _
+	_ _ _ _ _ %30
+	cem,
+	do --
+	na no --
+	_ _
+	bis pa -- cem, %35
+	pa -- _ _
+	cem. %37 FINIS
 }
