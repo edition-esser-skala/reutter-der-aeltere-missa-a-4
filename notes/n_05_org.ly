@@ -915,9 +915,98 @@ AgnusDeiOrgano = {
 		\key g \dorian \time 2/1
 			\set Staff.timeSignatureFraction = 2/2
 		g'1. f2
+		<< {
+			r2 d'1 c2
+			d1 e2 e
+		} \\ {
+			g,1 a
+			b2. a4 g2 c
+		} >>
+		a b a1
+		b2 g1 fis2 %5
+		g \clef bass d1 c2
+		d1 e
+		f2 e2. fis4 g2~
+		g fis g \clef "treble_8" d'
+		b \clef bass g es1 %10
+		f \clef "treble_8" b2 \clef bass b,
+		es d c f
+		b, b'1 a2
+		b a g c,
+		d1 f %15
+		d es
+		d g,
+		g'1. d2
+		<< {
+			r2 c' b1
+			a2 d g,1 %20
+			s\breve
+		} \\ {
+			es1 d2 g
+			f d h1~ %20
+			\oneVoice h4 g a h c1
+		} >>
+		g' f2 d
+		es c g1
+		c \clef "treble_8" fis
+		g \clef bass cis, %25
+		d es
+		d2 \clef treble d''1 a2
+		<< {
+			c1 b
+			a1. b2
+			c4 g c2. b8[ a] b2 %30
+		} \\ {
+			r1 r2 g~
+			g d f1
+			es d2 g %30
+		} >>
+		\clef "treble_8" d1. a2
+		c \clef bass g1 d2
+		f1 es2 d~
+		d g, c1
+		b es %35
+		d\breve
+		g,\fermata \bar "|." %37 FINIS
 	}
 }
 
 AgnusDeiBassFigures = \figuremode {
-	
+	<1>1. q2
+	r\breve
+	r
+	<6>2 <5> <7> <6>
+	r <7> <4 2> <6> %5
+	r <6> <5> <6>
+	q1 q
+	<5>2 <6>2. <\t>4 r2
+	<2> <6> r <1>
+	q <5> <6>1 %10
+	<5>\breve
+	r1 <7>2 <3>
+	r <3> <2> <6>
+	r <6> <7> <_!>
+	<6>1 <6 4>2 <5 3> %15
+	<6> <5> <7> <6>
+	<6 4> <5 _+> r1
+	<1>1. q2
+	r\breve
+	r %20
+	<6>1 <_->
+	q1. <6!>2
+	<6> <[_-]> <4> <_!>
+	<_->1 <6>
+	<5 4>2 <\t 3> <6>1 %25
+	<5> <7>2 <6>
+	<_+>\breve
+	r
+	r
+	r %30
+	<5 4>2 <\l _+> r <6\\>
+	<6 _!> r1 <_!>2
+	<6>1 q2 r
+	<6> <7> <7 _-> <6>
+	<7> <6> <7> <6> %35
+	<7 _+> <6 4> <5 4> <\l _+>
+	<[_!]>\breve %37 FINIS
 }
