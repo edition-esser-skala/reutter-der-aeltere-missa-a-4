@@ -686,12 +686,68 @@ BenedictusBassoNotes = {
 		\clef bass
 		\key g \dorian \time 3/1 \autoBeamOff
 			\set Staff.timeSignatureFraction = 3/4
-		
+		g'\breve.
+		d
+		g,
+		d'
+		R\breve.*7 %11
+		r1 g g
+		d f e
+		d d g
+		es1. es2 d1( %15
+		g) es f
+		b, b'\breve~
+		b1 a f
+		g c,\breve
+		f1 d g %20
+		es c f
+		b, b' g
+		es as( b)
+		es,\breve.
+		R\breve.*6 %30
+		r1 g\breve~
+		g1 f d
+		es es( c)
+		d1. d2 g,1
+		c d\breve %35
+		g, g'1
+		g g g
+		g1. g2 g1
+		g g\breve
+		g\breve.\fermata \bar "|." %40 FINIS
 	}
 }
 
 BenedictusBassoLyrics = \lyricmode {
+	Be --
+	ne --
+	di --
+	ctus,
 	
+	be -- ne --
+	di -- ctus, qui
+	ve -- nit in
+	no -- mi -- ne __ %15
+	Do -- mi --
+	ni. O --
+	san -- na
+	in ex --
+	cel -- sis, o --
+	san -- na, o --
+	san -- na in
+	ex -- cel --
+	sis,
+	
+	o -- %31
+	san -- na
+	in ex --
+	cel -- sis, in
+	ex -- cel -- %35
+	sis, o --
+	san -- na, o --
+	san -- na in
+	ex -- cel --
+	sis. %40 FINIS
 }
 
 % BassoNotes = {

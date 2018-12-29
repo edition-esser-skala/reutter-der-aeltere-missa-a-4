@@ -846,14 +846,14 @@ BenedictusOrgano = {
 		es c f
 		b, b' g
 		es as b
-		es,\breve c'1~
+		es,\breve \clef "treble_8" c'1~
 		c b\breve~ %25
 		b1 as\breve
 		g1. g2 a1
 		b f\breve
 		b1 b\breve~
 		b1 a f %30
-		b g\breve~
+		b \clef bass g\breve~
 		g1 f d
 		es\breve c1
 		d\breve g,1
