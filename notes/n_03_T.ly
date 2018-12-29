@@ -834,10 +834,76 @@ AgnusDeiTenoreNotes = {
 		\clef "treble_8"
 		\key g \dorian \autoBeamOff \time 2/1
 			\set Staff.timeSignatureFraction = 2/2
-		
+		r2 g1 f2
+		g1 a2 a
+		b2.( a4) g2 c
+		a b4 b a2. a4
+		b2 g1 fis2 %5
+		g r r1
+		R\breve*2
+		r1 r2 d'
+		b1 c %10
+		r2 c b1
+		b c
+		d2 d c1
+		d2 c b c
+		b( d1) c2 %15
+		d fis, g g4( a)
+		b2( a) h1
+		R\breve
+		r2 c b1
+		a2 d g,1~ %20
+		g g2 g
+		g1 d'2 d
+		g, g g1
+		g fis2. fis4
+		g2 g e! a %25
+		a a g1
+		a2 r r1
+		R\breve*3 %30
+		r2 d1 a2
+		c1 b
+		a2 d g, a
+		d1 c2 a
+		b1 g %35
+		a2 b a1
+		h\longa*1/2\fermata \bar "|." %37 FINIS
 	}
 }
 
 AgnusDeiTenoreLyrics = \lyricmode {
+	A -- gnus
+	De -- i, qui
+	tol -- lis pec --
+	ca -- ta, pec -- ca -- ta
+	mun -- _ _ %5
+	di,
 	
+	pec -- %9
+	ca -- ta, %10
+	pec -- ca --
+	ta mun --
+	di: Mi -- se --
+	re -- re, mi -- se --
+	re -- re, %15
+	mi -- se -- re -- re __
+	no -- bis. %17
+	
+	Qui tol --
+	lis pec -- ca -- %20
+	ta, qui
+	tol -- lis pec --
+	ca -- ta mun --
+	di: Mi -- se --
+	re -- re, mi -- se -- %25
+	re -- re no --
+	bis.
+	
+	Do -- na
+	no -- bis
+	pa -- _ _ _
+	cem, do -- na
+	no -- bis
+	pa -- _ _
+	cem.
 }

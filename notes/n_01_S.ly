@@ -830,8 +830,8 @@ AgnusDeiSopranoNotes = {
 		g2 fis g1
 		R\breve*3 %20
 		r1 r2 c
-		b1 a2 h(
-		c4 g) c1( h2)
+		b1 a2 h
+		c4 g c1( h2)
 		c1 c2. c4
 		c2 b a2. g4 %25
 		fis2 fis g1
@@ -867,8 +867,8 @@ AgnusDeiSopranoLyrics = \lyricmode {
 	
 	Qui %21
 	tol -- lis pec --
-	ca --
-	ta: Mi -- se --
+	[ca -- ta mun --
+	di:] Mi -- se --
 	re -- re, mi -- se -- %25
 	re -- re no --
 	bis. Do -- na
