@@ -2,7 +2,7 @@
 
 Engraving files for LilyPond 2.18.0
 
-First version, in progress
+First version, January 2019
 
 
 ## Build instructions
