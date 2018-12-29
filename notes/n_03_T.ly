@@ -745,12 +745,88 @@ BenedictusTenoreNotes = {
 		\clef "treble_8"
 		\key g \dorian \time 3/1 \autoBeamOff
 			\set Staff.timeSignatureFraction = 3/4
-		
+		b\breve.
+		b1 a\breve
+		g\breve.
+		a
+		r1 d d %5
+		g, b a
+		g1. f2 g a
+		b1 a g
+		f\breve g1~
+		g fis\breve %10
+		g\breve.
+		R\breve.*2
+		r1 r d'
+		es b d~ %15
+		d c1. c2
+		d\breve.
+		c
+		b1 c\breve
+		a1 d\breve %20
+		c a1
+		b\breve.
+		b1 c( b)
+		b\breve c1
+		c b\breve %25
+		b1 as\breve
+		g1. g2 a1
+		b f\breve
+		b1 b\breve~
+		b1 a( f) %30
+		b b\breve
+		a1 a\breve
+		g1 g( a)
+		a1. d2 d1
+		es d\breve %35
+		d h1
+		c h d
+		es1. es2 d1
+		h c\breve
+		h\breve.\fermata \bar "|." %40 FINIS
 	}
 }
 
 BenedictusTenoreLyrics = \lyricmode {
+	Be --
+	[ne -- _
+	di --
+	ctus,]
+	be -- ne -- %5
+	di -- ctus, qui
+	ve -- _ _ _
+	_ nit, qui
+	ve -- _
+	_ %10
+	nit
 	
+	in %14
+	no -- mi -- ne __ %15
+	Do -- mi --
+	ni.
+	O --
+	san -- na
+	in ex -- %20
+	cel -- sis,
+	in
+	ex -- cel --
+	sis, o --
+	san -- na %25
+	in ex --
+	cel -- sis, in
+	ex cel --
+	sis, o --
+	san -- %30
+	na, o --
+	san -- na
+	in ex --
+	cel -- sis, in
+	ex -- cel -- %35
+	sis, o --
+	san -- na, o --
+	san -- na in
+	ex -- cel --
+	sis. %40 FINIS
 }
 
 % TenoreNotes = {

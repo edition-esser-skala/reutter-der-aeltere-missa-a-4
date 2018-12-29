@@ -882,7 +882,7 @@ BenedictusBassFigures = \figuremode {
 	<_!>1 <6> <6\\>
 	r\breve.
 	r\breve <6>1 %15
-	r\breve <5 [4]>2 <\l [3]>
+	r <[6 5]> <5 [4]>2 <\l [3]>
 	r\breve.
 	<2>1 <3> r
 	<7> <5 4> <\l 3>
@@ -899,7 +899,7 @@ BenedictusBassFigures = \figuremode {
 	<2>1 <6>\breve %30
 	r\breve.
 	<2>1 <6>\breve
-	<7>1 <6> <[_-]>
+	<7>1 <6> <[6 5 _-]>
 	<7 _+>\breve.
 	<[6 5 _-]>1 <4> <_+> %35
 	<_!>\breve q1
