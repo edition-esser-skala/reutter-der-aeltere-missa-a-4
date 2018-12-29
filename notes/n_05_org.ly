@@ -824,11 +824,89 @@ BenedictusOrgano = {
 		\key g \dorian \time 3/1
 			\set Staff.timeSignatureFraction = 3/4
 		g'\breve.
+		d
+		g,
+		d'
+		\clef "treble_8" r1 d' d %5
+		g, b a
+		g1. f2 g a
+		b1 a g
+		f\breve g1~
+		g fis\breve %10
+		g\breve.
+		\clef bass g1 g g
+		d f e
+		d d g
+		es1. es2 d1 %15
+		g es f
+		b, b'\breve~
+		b1 a f
+		g c,\breve
+		f1 d g %20
+		es c f
+		b, b' g
+		es as b
+		es,\breve c'1~
+		c b\breve~ %25
+		b1 as\breve
+		g1. g2 a1
+		b f\breve
+		b1 b\breve~
+		b1 a f %30
+		b g\breve~
+		g1 f d
+		es\breve c1
+		d\breve g,1
+		c d\breve %35
+		g, g'1
+		g\breve.
+		g
+		g
+		g\fermata \bar "|." %40 FINIS
 	}
 }
 
 BenedictusBassFigures = \figuremode {
-	
+	r\breve.
+	<4>1 <_+>\breve
+	r\breve.
+	<_+>
+	r %5
+	r
+	r
+	r
+	r
+	<4 2>1 <3>\breve %10
+	r\breve.
+	r
+	<_->1 <6> <6\\>
+	r\breve.
+	r\breve <6>1 %15
+	r\breve <5 3>1
+	r\breve.
+	<2>1 <3> r
+	<7> <5 4> <\l 3>
+	r <6> r %20
+	<6>\breve.
+	r\breve <6->1
+	r\breve.
+	r\breve <_->1
+	<2> <6 3>\breve %25
+	<2>1 <6 3>\breve
+	<7>1 <6-> <\t>
+	r <4> <3>
+	r\breve.
+	<2>1 <6>\breve %30
+	r\breve.
+	<2>1 <6>\breve
+	<7>1 <6>\breve
+	<7 _+>\breve.
+	r1 <4> <_+> %35
+	<_!>\breve q1
+	<[6-] 4> <5 _!>\breve
+	<[6-] 4>1 <5 _!>\breve
+	q1 <6- 4>\breve
+	<5 _!>\breve.
 }
 
 % Organo = {
