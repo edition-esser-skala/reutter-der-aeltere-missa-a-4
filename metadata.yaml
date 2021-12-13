@@ -1,17 +1,18 @@
-composer: Reutter der Ältere, Georg
-title: Missa in g
-id: (D-Dl Mus.2979-D-9)
+composer:
+  last: Reutter
+  suffix: der Ältere
+  first: Georg
+title: Missa a 4
 genre: mass
 scoring: S, A, T, B (coro), org, b
+license: cc-by-sa-4.0
 sources:
-  1:
+  B1:
     siglum: D-Dl
     shelfmark: Mus.2979-D-9
-    type: manuscript copy
     date: 1716–1719
     rism: 212006926
-    url: http://digital.slub-dresden.de/id426600592
-github: reutter-the-elder-missa-in-g-minor
+    url: https://digital.slub-dresden.de/id426600592
+    license: public domain
+    principal: true
 imslp: Missa_in_g_minor_(Reutter_der_Ältere,_Georg)
-notes:
-
